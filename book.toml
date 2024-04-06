@@ -1,0 +1,33 @@
+[book]
+authors = ["koitsu"]
+language = "en"
+multilingual = false
+title = "THORChain Ecosystem Community Guide"
+description = "A website dedicated to the THORChain ecosystem, intended for use by users"
+src = "content"
+
+[output.html]
+site-url = "/"
+git-repository-url = "https://github.com/koitsu/tcecosystem-guide/tree/master"
+edit-url-template = "https://github.com/koitsu/tcecosystem-guide/edit/master/{path}"
+no-section-label = true
+default-theme = "light"
+preferred-dark-theme = "ayu"
+
+[output.html.fold]
+enable = false
+
+[output.html.print]
+enable = true
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
