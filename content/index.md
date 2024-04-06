@@ -18,8 +18,8 @@ We hope that you find the information here beneficial.
 The site is written entirely in [Markdown], rendered using [mdBook], a
 documentation-oriented static-site generator.
 
-It is hosted using [GitHub Pages], with [Cloudflare] sitting in front of it for
-added benefits of security and caching.
+It is hosted using [GitHub Pages], with [Cloudflare] sitting in front of it to
+provide additional benefits like security, caching, and general metrics.
 
 The site leverages [GitHub Actions]; every time there is a commit pushed to the
 `master` branch of the official GitHub repository, the site auto-builds and
