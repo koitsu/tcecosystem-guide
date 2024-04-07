@@ -13,6 +13,9 @@ THORChain's [outbound throttling](delays.md) security mechanism.
 Transactions in this queue have an **ETA** field, which is the amount of time
 remaining until your transaction is moved into the Outbound queue.
 
+The Scheduled Queue data comes directly from the `/thorchain/queue/scheduled`
+[THORNode API endpoint][1].
+
 ## Outbound Queue
 
 Transactions in the Outbound Queue are actively being processed by THORChain
@@ -38,9 +41,12 @@ Some example scenarios are:
 - [Asgard vault churn], which is done periodically (usually every 2.5 to 3 days)
   - Transactions with a **Type** of `MIGRATE` are indicators churn is happening
 - Gas estimation complications
-- Anomalous conditions which require THORChain developer attention (and possibly
-  a chain halt)
+- Anomalous conditions which require THORChain developer attention (and possibly a chain halt)
 
+The Outbound Queue data comes directly from the `/thorchain/queue/outbound`
+[THORNode API endpoint][1].
+
+[1]: https://thornode.ninerealms.com/thorchain/doc
 [9R THORChain Tracker]: https://track.ninerealms.com/
 [Asgard vault churn]: https://docs.thorchain.org/thornodes/overview#churning
 [Blockchair]: https://blockchair.com/
