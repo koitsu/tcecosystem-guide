@@ -44,7 +44,8 @@ The friend then does the following:
    - A total of 1.03 RUNE will taken from their wallet: 1.01 for the loan repayment, and 0.02 for transaction fees/gas
    - The $0.56 worth of RUNE "in excess" will be tracked as a credit for collateral address `0x123abcd` (for future loans)
 1. Waits a few minutes then checks the transaction on [RuneScan]: it says "Success" and "Repay"
-1. Waits a few more minutes, then follows the [Tracking a withdrawal](tracking-a-withdrawal.md) procedure.  He finds that the ETH collateral is in the THORChain scheduled queue (to be processed in 55 minutes).  Nothing more to do but wait!
+1. Waits a few more minutes, then follows the [Tracking a withdrawal](../thorswap/tracking-a-withdrawal.md) procedure
+   - He finds the ETH collateral is in the [Scheduled Queue](queues.md) and is to be processed in 55 minutes
 
 [1]: https://dev.thorchain.org/concepts/memos.html#repay-loan
 [Midgard API]: https://midgard.ninerealms.com/v2/doc
