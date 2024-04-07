@@ -14,8 +14,10 @@ something has gone wrong, followed by claims that "their transaction is stuck".
 Most of the time (~98%) the transaction is not "stuck", but rather subject to
 THORChain's [outbound throttling][1] security mechanism.
 
-**This security mechanism can delay the "outbound" portion of the transaction
-up to 1 hour.**
+<div class="warning">
+This security mechanism can delay the "outbound" portion of the transaction
+up to 1 hour.
+</div>
 
 For more information on the security mechanism, refer to
 [this THORChain University article][2] which covers some other scenarios.
