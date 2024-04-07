@@ -31,7 +31,7 @@ If you're unsure which provider was used for your swap, start with Chainflip.
 
 If your transaction is found, details about it will be shown.  Depending on
 which queue) your transaction is in, it may or may not have an **ETA**.  Refer
-to [THORChain queues](../thorchain/queue.md) for details.
+to [THORChain queues](../thorchain/queues.md) for details.
 
 [1]: https://crypto-university.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#f667
 [2]: https://thorswap.medium.com/cross-chain-made-easy-thorswap-integrates-chainflip-liquidity-network-3894d24db1b8

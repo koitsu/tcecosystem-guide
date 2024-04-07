@@ -15,7 +15,7 @@ These instructions can be used for any of the following scenarios:
 
 If your transaction is found, check to see which queue it's in; this will give
 you an idea of how long it will be before your transaction makes it onto the
-blockchain.  Refer to [THORChain queues](../thorchain/queue.md) for details.
+blockchain.  Refer to [THORChain queues](../thorchain/queues.md) for details.
 
 [1]: https://docs.thorchain.org/thornodes/overview#churning
 [9R THORChain Tracker]: https://track.ninerealms.com/
