@@ -7,8 +7,11 @@ This little-known feature of THORChain allows you to issue a withdrawal by
 sending a small (yet very specific) amount to a special THORChain wallet
 address.  No need for THORSwap or any other front-end.
 
-**The below procedure withdraws 100% of your Savers/Earn position.  Please read
-the procedure and the below chart _before_ performing any actions!**
+<div class="warning">
+The below procedure withdraws <strong>100%</strong> of your Savers/Earn
+position.  Please review the procedure and the below chart
+<strong>before</strong> performing any actions!
+</div>
 
 1. Make sure whatever wallet you're using has the wallet address which opened the Savers/Earn position.  **This is super important!**
 1. Visit <https://thornode.ninerealms.com/thorchain/inbound_addresses> and search for the THORNode chain name associated with your Savers/Earn asset (see below chart).
