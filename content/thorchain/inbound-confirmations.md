@@ -4,7 +4,7 @@ THORChain requires a certain number of [inbound confirmations][1] when
 receiving an asset on the THORChain network.  This is sometimes called the
 "inbound leg".
 
-Reviewing inbound confirmations is a somewhat complicated and technical:
+Reviewing inbound confirmations is somewhat complicated and technical:
 
 1. Visit `https://thornode.ninerealms.com/thorchain/tx/status/YOUR_TRANSACTION_HASH` in your browser
    - Replace `YOUR_TRANSACTION_HASH` with the Transaction Hash/ID from the earlier procedure
