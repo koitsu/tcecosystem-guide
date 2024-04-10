@@ -13,6 +13,7 @@ edit-url-template = "https://github.com/koitsu/tcecosystem-guide/edit/master/{pa
 no-section-label = true
 default-theme = "light"
 preferred-dark-theme = "ayu"
+additional-css = ["custom.css"]
 
 [output.html.fold]
 enable = false
