@@ -1,3 +1,4 @@
 /* Disable prev/next chapter navigation bars */
+.nav-wrapper { display: none; }
 .nav-wide-wrapper { display: none; }
 
