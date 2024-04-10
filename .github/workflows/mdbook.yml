@@ -64,7 +64,7 @@ jobs:
           CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
         run: |
-          curl -s -o '/dev/null' \
+          curl -sS \
           -H 'Content-Type: application/json' \
           -H "Authorization: Bearer ${CLOUDFLARE_TOKEN}" \
           --data '{"purge_everything":true}' \
