@@ -60,7 +60,7 @@ jobs:
         uses: actions/deploy-pages@v4
       - name: Purge Cloudflare Cache
         id: cf-purge
-        uses: Jonakemon/purge-cache-cloudflare-zone@v1.1.0
+        uses: Jonakemon/cloudflare-purge-cache-action@v1.1.0
         with:
           cloudflareZone: ${{ secrets.CLOUDFLARE_ZONE }}
           cloudflareApiKey: ${{ secrets.CLOUDFLARE_API_KEY }}
