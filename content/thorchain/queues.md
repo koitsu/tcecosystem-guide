@@ -32,16 +32,16 @@ more precisely, 300 blocks ([SigningTransactionPeriod][3])), the transaction
 will be reassigned to a different Asgard vault and **AGE** reset to 0 minutes.
 
 In normal cases, this queue is processed quickly.  However, there are some
-scenarios where the queue can become large (or "clogged").  In these
-situations, it is common to see transactions with an abnormally large **AGE**
-field, or transaction which seem "stuck" (going from 30m to 0m; see above).
+scenarios where the queue can become large.  In these situations, it's common
+to see transactions with a large **AGE** field, or being shuffled around
+between different Asgard vaults.
 
 Some example scenarios where this might happen:
 
 - [Asgard vault churn][2], which is done periodically (usually every 2.5 to 3 days)
   - Transactions with a **Type** of `MIGRATE` are indicators churn is happening
 - Gas estimation quirks or bugs (such as those fixed in [THORNode v1.131.0][4])
-- Anomalous conditions which require THORChain developer attention (and possibly a chain halt)
+- Anomalous conditions which require developer attention (and possibly a chain halt)
 
 The Outbound Queue data comes directly from the `/thorchain/queue/outbound`
 [THORNode API endpoint][1].
