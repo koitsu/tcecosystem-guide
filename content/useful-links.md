@@ -21,7 +21,7 @@
   - [Midgard API v2]
   - [THORChain Ecosystem Docs]
   - [THORChain Developer Docs]
-  - [THORNode v1 Docs]
+  - [THORNode Docs]
   - [THORSwap Docs]
   - [THORSwap SwapKit Docs]
 - Blogs
@@ -54,7 +54,7 @@
 [THORChain Twitter]: https://twitter.com/THORChain
 [THORCharts]: https://thorcharts.org/
 [THORNode]: https://thornode.network/
-[THORNode v1 Docs]: https://thornode-v1.ninerealms.com/thorchain/doc
+[THORNode Docs]: https://thornode.ninerealms.com/thorchain/doc
 [THORSwap]: https://www.thorswap.finance/
 [THORSwap Community Forum]: https://forum.thorswap.finance/
 [THORSwap Medium]: https://thorswap.medium.com/
