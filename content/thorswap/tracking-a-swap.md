@@ -6,13 +6,13 @@ protocol for swaps.
 
 How to track a swap depends on which provider was used.
 
-As of this writing (2024/03/30), Chainflip-based swaps do not show up in the
-THORSwap Transaction History UI.  Instead, users will be shown a blank page, or
-a page with a never-ending spinner.
-
 If you're unsure which provider was used for your swap, start with Chainflip.
 
 ## Chainflip procedure
+
+As of this writing (2024/03/30), Chainflip-based swaps do not show up in the
+THORSwap Transaction History UI (users will be shown a blank page or a page
+with a never-ending spinner).  Below is how you can find your swap:
 
 1. Visit the [Chainflip swap tracker]
 1. Scroll down the page until you find the **Search by swap ID or destination address** search box
@@ -32,6 +32,9 @@ If you're unsure which provider was used for your swap, start with Chainflip.
 If your transaction is found, details about it will be shown.  Depending on
 which queue) your transaction is in, it may or may not have an **ETA**.  Refer
 to [THORChain queues](../thorchain/queues.md) for details.
+
+If you still can't find your transaction on THORChain, you can try the procedure
+documented in [Tracking a withdrawal](tracking-a-withdrawal.md).
 
 [1]: https://crypto-university.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#f667
 [2]: https://thorswap.medium.com/cross-chain-made-easy-thorswap-integrates-chainflip-liquidity-network-3894d24db1b8
