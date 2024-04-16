@@ -25,11 +25,11 @@ outbound transaction (on the destination blockchain).  Once this process has
 completed, the transaction is no longer THORChain's responsibility.
 
 These transactions have an **AGE** field.  This field represents how long a
-transaction has been assigned to an As vault, but not yet signed or having its
-outbound transaction (on the destination blockchain) completed successfully.
-If neither of the latter scenarios have not completed within 30 minutes (or
-more precisely, 300 blocks ([SigningTransactionPeriod][3])), the transaction
-will be reassigned to a different Asgard vault and **AGE** reset to 0 minutes.
+transaction has been assigned to an Asgard vault, but not yet signed or having
+its outbound transaction accepted (on the destination blockchain).  If neither
+of the latter scenarios have not completed within 30 minutes (or more
+precisely, 300 blocks ([SigningTransactionPeriod][3])), the transaction will be
+reassigned to a different Asgard vault and **AGE** reset to 0 minutes.
 
 In normal cases, this queue is processed quickly.  However, there are some
 scenarios where the queue can become large.  In these situations, it's common
