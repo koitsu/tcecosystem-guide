@@ -25,18 +25,18 @@ amount (smaller or larger) can result in a partial withdrawal or loss of the
 sent amount.
 </div>
 
-| Savers Vault     | THORNode name | Amount for 100% withdrawal |
-| ---------------- | ------------- | -------------------------- |
-| ATOM             | GAIA          | 0.0001 ATOM                |
-| AVAX             | AVAX          | 0.0001 AVAX                |
-| BCH              | BCH           | 0.0002 BCH                 |
-| BNB (BEP20/BSC)  | BSC           | 0.0001 BNB (BEP20)         |
-| BTC              | BTC           | 0.0002 BTC                 |
-| DOGE             | DOGE          | 1.0001 DOGE                |
-| ETH              | ETH           | 0.0001 ETH                 |
-| LTC              | LTC           | 0.0002 LTC                 |
-| USDC (AVAX)      | AVAX          | 0.0001 AVAX                |
-| USDC (ERC20)     | ETH           | 0.0001 ETH                 |
-| USDT (ERC20)     | ETH           | 0.0001 ETH                 |
+| Savers Vault     | THORNode chain name | Amount for 100% withdrawal |
+| ---------------- | ------------------- | -------------------------- |
+| ATOM             | GAIA                | 0.0001 ATOM                |
+| AVAX             | AVAX                | 0.0001 AVAX                |
+| BCH              | BCH                 | 0.0002 BCH                 |
+| BNB (BEP20/BSC)  | BSC                 | 0.0001 BNB (BEP20)         |
+| BTC              | BTC                 | 0.0002 BTC                 |
+| DOGE             | DOGE                | 1.0001 DOGE                |
+| ETH              | ETH                 | 0.0001 ETH                 |
+| LTC              | LTC                 | 0.0002 LTC                 |
+| USDC (AVAX)      | AVAX                | 0.0001 AVAX                |
+| USDC (ERC20)     | ETH                 | 0.0001 ETH                 |
+| USDT (ERC20)     | ETH                 | 0.0001 ETH                 |
 
 [memoless withdrawal]: https://dev.thorchain.org/saving-guide/quickstart-guide.html#basic-mechanics
