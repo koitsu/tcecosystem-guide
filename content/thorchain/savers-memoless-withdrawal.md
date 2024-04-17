@@ -9,8 +9,8 @@ address.  No need for a front-end!
 
 <div class="warning">
 The below procedure withdraws <strong>100%</strong> of your Savers/Earn
-position.  Please review the procedure and the below chart
-<strong>before</strong> performing any actions!
+position.  Please review the procedure <strong>before</strong> performing any
+actions!
 </div>
 
 1. Make sure whatever wallet you're using has the wallet address which opened the Savers/Earn position.  **This is super important!**
@@ -18,7 +18,12 @@ position.  Please review the procedure and the below chart
 1. Extract the `address` field from the structure.  **This is the destination address you'll be sending a small amount to.**
    - The `address` field will change depending on which THORNode server you hit (it's random).  What's important is that you do the above 2 steps **every single time you want to do a memoless withdrawal**.  The addresses change regularly; sending funds to a deprecated/expired address will result in the loss of those funds.
 1. In your wallet, send the required amount (see below) to the address obtained in the previous step.
-   - **Only send the specific amount shown in the chart!**  A different amount (smaller or larger) can result in a partial withdrawal or loss of the sent amount.
+
+<div class="warning">
+<strong>Only send the specific amount shown in the chart!</strong>  A different
+amount (smaller or larger) can result in a partial withdrawal or loss of the
+sent amount.
+</div>
 
 | Savers Vault     | THORNode name | Amount for 100% withdrawal |
 | ---------------- | ------------- | -------------------------- |
