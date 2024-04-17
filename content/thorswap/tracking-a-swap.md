@@ -30,8 +30,8 @@ with a never-ending spinner).  Below is how you can find your swap:
 1. Enter the Transaction Hash/ID into the **Swap Transaction ID** search box at the top of the page
 
 If your transaction is found, details about it will be shown.  Depending on
-which queue) your transaction is in, it may or may not have an **ETA**.  Refer
-to [THORChain queues](../thorchain/queues.md) for details.
+which queue your transaction is in, it may or may not have an **ETA**.  Refer
+to [THORChain queues](../thorchain/queues.md) for further details.
 
 If you still can't find your transaction on THORChain, you can try the procedure
 documented in [Tracking a withdrawal](tracking-a-withdrawal.md).
