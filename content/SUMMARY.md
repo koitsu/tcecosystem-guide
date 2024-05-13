@@ -9,6 +9,7 @@
   - [Front-ends](thorchain/front-ends.md)
   - [Gas chart for dummies](thorchain/gas-chart-for-dummies.md)
   - [Inbound confirmations](thorchain/inbound-confirmations.md)
+  - [Loan status](thorchain/loan-status.md)
   - [Manual loan repayment](thorchain/manual-loan-repayment.md)
   - [Queues](thorchain/queues.md)
   - [Savers/Earn memoless withdrawal](thorchain/savers-memoless-withdrawal.md)
