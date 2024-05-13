@@ -2,9 +2,12 @@
 
 When paying off a loan on THORChain, as of this writing (2023/12/29), it's
 common that there is price movement during the transaction.  This can/will
-result in a very small amount of debt remaining (usually in US cents), which blocks the return of your collateral.  You can check this by searching for your loan/collateral address on https://runescan.io/ , and clicking on the "Loans" tab.
+result in a very small amount of debt remaining (usually in US cents),
+which blocks the return of your collateral.  You can check this by following
+the [Loan status](loan-status.md) procedure.
 
-The rest of this article describes how you can pay off the remaining part of the loan by manually creating a THORChain memo using the MsgDeposit feature.
+The rest of this article describes how you can pay off the remaining part of
+the loan by manually creating a THORChain memo using the MsgDeposit feature.
 
 <div class="warning">
 The below procedure is an advanced feature that should not be performed by
