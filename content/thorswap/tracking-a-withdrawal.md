@@ -4,7 +4,7 @@ These instructions can be used for any of the following scenarios:
 
 - Withdrawing from an LP
 - Withdrawing from Savers/Earn
-- Closing a loan
+- Closing a loan (specifically for loans, please also check https://tcecosystem.guide/thorchain/manual-loan-repayment.html)
 
 ## Procedure
 
