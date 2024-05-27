@@ -17,7 +17,7 @@ with a never-ending spinner).  Below is how you can find your swap:
 1. Visit the [Chainflip swap tracker]
 1. Scroll down the page until you find the **Search by swap ID or destination address** search box
 1. Enter your **destination wallet address**.  For example, if you swapped BTC into ETH, you would enter your Ethereum wallet address
-1. If your swap was done through Chainflip, you should be show details of your swap, as well as a progress indicator
+1. If your swap was done through Chainflip, you should be shown details of your swap, as well as a progress indicator
 1. If your swap is not found, try following the THORChain procedure below
 
 ## THORChain procedure
