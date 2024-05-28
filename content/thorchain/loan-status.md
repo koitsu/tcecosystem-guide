@@ -18,4 +18,11 @@ You can also examine your transactions on RuneScan:
 - You can drill down onto any transaction to see its state.  Completed
   transactions will show "Success" in green
 
+If you're closing a loan and want to check the status of your collateral
+being returned to you:
+
+- Use RuneScan to make sure your loan is paid off in full (i.e. no **Loans** tab, or
+  a loan credit is present), as described above
+- Follow the [Tracking a withdrawal](../thorswap/tracking-a-withdrawal.md) procedure
+
 [RuneScan]: https://runescan.io/
