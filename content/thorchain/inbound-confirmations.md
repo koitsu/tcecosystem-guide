@@ -19,6 +19,3 @@ Reviewing inbound confirmations is somewhat complicated and technical:
 
 [1]: https://crypto-university.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#f667
 [2]: https://thorswap.medium.com/cross-chain-made-easy-thorswap-integrates-chainflip-liquidity-network-3894d24db1b8
-[9R THORChain Tracker]: https://track.ninerealms.com/
-[Chainflip swap tracker]: https://scan.chainflip.io/swaps
-[RuneScan]: https://runescan.io/
