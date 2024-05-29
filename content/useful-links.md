@@ -3,6 +3,7 @@
 - [9R Dashboards]
 - [9R THORChain Ops]
 - [9R THORChain Tracker]
+  - [/pending endpoint]
 - [RuneScan]
 - [THORChain]
 - [THORChain Network Explorer]
@@ -39,6 +40,7 @@
 [9R Dashboards]: https://dashboards.ninerealms.com/
 [9R THORChain Ops]: https://ops.ninerealms.com/
 [9R THORChain Tracker]: https://track.ninerealms.com/
+[/pending endpoint]: https://track.ninerealms.com/pending
 [Midgard API v1 (Microgard)]: https://mu.thorswap.net/doc
 [Midgard API v2]: https://midgard.ninerealms.com/v2/doc
 [Mimir voting results]: https://ops.ninerealms.com/mimir

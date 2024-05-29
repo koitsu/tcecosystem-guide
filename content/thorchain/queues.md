@@ -3,7 +3,9 @@
 THORChain has two (2) kinds of queues that pertain directly to outbound
 transactions: the Scheduled Queue, and the Outbound Queue.
 
-You can see both of these queues using the [9R THORChain Tracker].
+You can see both of these queues using the [9R THORChain Tracker].  If
+you want to see see both queues on a single page, visit the Tracker's
+[/pending endpoint] instead.
 
 ## Scheduled Queue
 
@@ -51,4 +53,5 @@ The Outbound Queue data comes directly from the `/thorchain/queue/outbound`
 [3]: https://thornode.ninerealms.com/thorchain/constants
 [4]: https://gitlab.com/thorchain/thornode/-/tags/v1.131.0
 [9R THORChain Tracker]: https://track.ninerealms.com/
+[/pending endpoint]: https://track.ninerealms.com/pending
 [Asgard vault]: https://thorchain-university.medium.com/under-the-hood-asgard-vaults-tss-and-node-churns-4767f3a5624b
