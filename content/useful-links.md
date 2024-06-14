@@ -52,7 +52,7 @@
 [THORChain Medium]: https://thorchain.medium.com/
 [THORChain Network]: https://thorchain.network/nodes/
 [THORChain Network Explorer]: https://thorchain.net/dashboard
-[THORChain University Medium]: https://crypto-university.medium.com/
+[THORChain University Medium]: https://thorchain-university.medium.com/
 [THORChain Twitter]: https://twitter.com/THORChain
 [THORCharts]: https://thorcharts.org/
 [THORNode]: https://thornode.network/

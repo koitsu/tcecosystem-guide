@@ -36,7 +36,7 @@ to [THORChain queues](../thorchain/queues.md) for further details.
 If you still can't find your transaction on THORChain, you can try the procedure
 documented in [Tracking a withdrawal](tracking-a-withdrawal.md).
 
-[1]: https://crypto-university.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#f667
+[1]: https://thorchain-university.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#f667
 [2]: https://thorswap.medium.com/cross-chain-made-easy-thorswap-integrates-chainflip-liquidity-network-3894d24db1b8
 [9R THORChain Tracker]: https://track.ninerealms.com/
 [Chainflip swap tracker]: https://scan.chainflip.io/swaps

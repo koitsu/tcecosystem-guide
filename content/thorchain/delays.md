@@ -32,5 +32,5 @@ enough confirmations for funds to appear in a user's wallet.  This is not the
 fault of THORChain.
 
 [1]: https://docs.thorchain.org/frequently-asked-questions#what-is-outbound-throttling
-[2]: https://crypto-university.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#9534
+[2]: https://thorchain-university.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#9534
 [3]: https://gitlab.com/thorchain/thornode/-/issues/1723

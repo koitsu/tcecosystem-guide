@@ -59,7 +59,7 @@ Quoting SamYap of THORChain University:
 > * LP APRs are backward calculated, not guarantee of any future returns
 > * LP APRs depends significantly on RUNE price movements & calculation time periods
 > 
-> See <https://crypto-university.medium.com/under-the-hood-liquidity-pool-apr-3e5e662e6675> and <https://crypto-university.medium.com/under-the-hood-apr-of-a-fluctuating-position-948f49dace8a>
+> See <https://thorchain-university.medium.com/under-the-hood-liquidity-pool-apr-3e5e662e6675> and <https://thorchain-university.medium.com/under-the-hood-apr-of-a-fluctuating-position-948f49dace8a>
 >
 > Note: The synth leverage on @THORChain's LP goes both ways.
 >
@@ -95,15 +95,15 @@ section, with some additions:
 Try the [THORChain Network Explorer].  Navigate to Insights &rarr; APR.  There
 you can see 30, 60, 90, and 180-day histories.
 
-[1]: https://crypto-university.medium.com/calculating-redeemable-value-of-a-liquidity-pool-e89a452afeec
-[2]: https://crypto-university.medium.com/distinguishing-between-price-exposure-and-impermanent-loss-in-asymmetrical-lping-f3fcd0e84887
-[3]: https://crypto-university.medium.com/thorchain-lp-faq-7f60950aa277
+[1]: https://thorchain-university.medium.com/calculating-redeemable-value-of-a-liquidity-pool-e89a452afeec
+[2]: https://thorchain-university.medium.com/distinguishing-between-price-exposure-and-impermanent-loss-in-asymmetrical-lping-f3fcd0e84887
+[3]: https://thorchain-university.medium.com/thorchain-lp-faq-7f60950aa277
 [4]: https://docs.thorchain.org/thorchain-finance/savings
 [5]: https://medium.com/thorchain/thorchain-savers-vaults-fc3f086b4057
-[6]: https://crypto-university.medium.com/impermanent-loss-and-impermanent-loss-protection-a4a0f78d1701
-[7]: https://crypto-university.medium.com/lpu-thorchain-updates-nov-2023-17af629c7763
-[8]: https://crypto-university.medium.com/under-the-hood-liquidity-pool-apr-3e5e662e6675
-[9]: https://crypto-university.medium.com/under-the-hood-liquidity-pool-apr-synth-leverage-201-c412b2cb8cb5
+[6]: https://thorchain-university.medium.com/impermanent-loss-and-impermanent-loss-protection-a4a0f78d1701
+[7]: https://thorchain-university.medium.com/lpu-thorchain-updates-nov-2023-17af629c7763
+[8]: https://thorchain-university.medium.com/under-the-hood-liquidity-pool-apr-3e5e662e6675
+[9]: https://thorchain-university.medium.com/under-the-hood-liquidity-pool-apr-synth-leverage-201-c412b2cb8cb5
 [Midgard API]: https://midgard.ninerealms.com/v2/doc
 [THORChain Network Explorer]: https://thorchain.net/dashboard
 [THORYield app]: https://app.thoryield.com/dashboard
