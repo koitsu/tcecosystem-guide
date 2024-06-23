@@ -17,7 +17,11 @@
 | Staking $THOR into $vTHOR     | ETH                 | Ethereum                      |
 | Unstaking $vTHOR into $THOR   | ETH                 | Ethereum                      |
 
-<sup>†</sup>: It is possible to swap from asset X to Y with only the native chain for X connected.  You can enable the **Custom Recipient Address** feature in the Swap UI and then manually enter the destination address for asset Y.  THORSwap populates this field for you automatically if you choose to connect both asset X and asset Y chains simultaneously.
+<sup>†</sup>: It is possible to swap from asset X to Y with only the native
+chain for X connected.  Simply enable the **Custom Recipient Address** feature
+in the Swap UI, then manually enter the destination address for asset Y.
+(THORSwap will automatically populate this field for you if you choose to
+connect both asset X and asset Y chains simultaneously.)
 
 "Native chain" means whatever chain an asset lives on.  Some examples:
 
@@ -32,4 +36,5 @@
 | Ethereum             | THOR (ERC20) | ETH         |
 | Ethereum             | USDC (ERC20) | ETH         |
 | Litecoin             | LTC          | LTC         |
+| Maya Protocol        | CACAO        | CACAO       |
 | THORChain            | Any synth    | RUNE        |
