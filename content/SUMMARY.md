@@ -4,6 +4,7 @@
 - [General Q&A](general-qa.md)
 - [THORChain](thorchain/index.md)
   - [BEP2 and ERC20 RUNE](thorchain/bep2-and-erc20-rune.md)
+  - [Check LP balances](thorchain/check-lp-balances.md)
   - [Delays](thorchain/delays.md)
   - [Dust threshold chart](thorchain/dust-threshold-chart.md)
   - [Front-ends](thorchain/front-ends.md)
