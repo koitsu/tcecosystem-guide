@@ -6,7 +6,7 @@ directly, so rest assured of their accuracy.
 
 ## 9R THORChain Tracker
 
-Link: [9R THORChain Tracker]
+Web: https://track.ninerealms.com/
 
 - Select the **LP** tab
 - Symmetrical LPs: search for your THORChain address (ex. `thor1xxx`)
@@ -16,12 +16,19 @@ Link: [9R THORChain Tracker]
 
 ## RuneScan
 
-Link: [RuneScan]
+Web: https://runescan.io/
 
 - Symmetrical LPs: search for your THORChain address (ex. `thor1xxx`)
 - Asymmetrical LPs: search for your asset's wallet address
 - Select your wallet address in the pulldown directly below the search bar
 - Select the **LPs** tab
 
-[9R THORChain Tracker]: https://track.ninerealms.com/
-[RuneScan]: https://runescan.io/
+## Thoryield
+
+- Web: https://app.thoryield.com/
+- Mobile (Android): https://play.google.com/store/apps/details?id=com.thoryield.androidapp
+- Mobile (iOS): https://apps.apple.com/us/app/thoryield/id1618239586
+
+Instructions vary per interface, but simply add your relevant wallet address
+as an "account" where applicable.  (See below services for examples of what
+address to add for symmetrical vs. asymmetrical LPs.)
