@@ -13,7 +13,7 @@ Transactions in the Scheduled Queue are intentionally delayed due to
 THORChain's [outbound throttling](delays.md) security mechanism.
 
 Transactions in this queue have an **ETA** field, which is the amount of time
-remaining until your transaction is moved into the Outbound queue.
+remaining until your transaction is moved into the Outbound Queue.
 
 The Scheduled Queue data comes directly from the `/thorchain/queue/scheduled`
 [THORNode API endpoint][1].
@@ -21,15 +21,20 @@ The Scheduled Queue data comes directly from the `/thorchain/queue/scheduled`
 ## Outbound Queue
 
 Transactions in the Outbound Queue are actively being processed by THORChain
-(i.e. not delayed).  When a transaction enters this queue, it's assigned to an
-[Asgard vault], which then signs the transaction and generates the actual
-outbound transaction (on the destination blockchain).  Once this process has
-completed, the transaction is no longer THORChain's responsibility.
+(i.e. not delayed).
 
-These transactions have an **AGE** field.  This field represents how long a
-transaction has been assigned to an Asgard vault, but not yet signed or having
-its outbound transaction accepted (on the destination blockchain).  If neither
-of the latter scenarios have not completed within 30 minutes (or more
+When a transaction enters this queue, it's assigned to an [Asgard vault], which
+then signs the transaction and generates the actual outbound transaction (on
+the destination blockchain).
+
+Once this process has completed, the transaction is no longer THORChain's
+responsibility.
+
+Outbound Queue transactions have an **AGE** field.  This field represents how
+long a transaction has been assigned to an Asgard vault, but not yet signed or
+having its outbound transaction accepted (on the destination blockchain).
+
+If neither of the latter scenarios have completed within 30 minutes (or more
 precisely, 300 blocks ([SigningTransactionPeriod][3])), the transaction will be
 reassigned to a different Asgard vault and **AGE** reset to 0 minutes.
 
