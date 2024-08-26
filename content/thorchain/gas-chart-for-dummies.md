@@ -1,21 +1,21 @@
 # Gas chart for dummies
 
-| Details                       | Gas required        | Required wallet connection    |
-| ----------------------------- | ------------------- | ----------------------------- |
-| Swap asset X to asset Y       | Native chain for X  | Native chain for X and/or Y<sup>†</sup> |
-| Swap synth X to asset Y       | RUNE ≥0.02          | THORChain                     |
-| LP Deposit  asymm RUNE        | RUNE                | THORChain                     |
-| LP Withdraw asymm RUNE        | RUNE ≥0.02          | THORChain                     |
-| LP Deposit  asymm asset       | Native chain        | Native chain                  |
-| LP Withdraw asymm asset       | Native chain        | Native chain                  |
-| LP Deposit  symm RUNE + asset | RUNE + native chain | THORChain and native chain    |
-| LP Withdraw symm RUNE + asset | RUNE ≥0.02          | THORChain                     |
-| LP Withdraw symm (100% RUNE)  | RUNE ≥0.02          | THORChain                     |
-| LP Withdraw symm (100% asset) | RUNE ≥0.02          | THORChain                     |
-| Earn/Savers Deposit           | Native chain        | Native chain                  |
-| Earn/Savers Withdraw          | Native chain        | Native chain                  |
-| Staking $THOR into $vTHOR     | ETH                 | Ethereum                      |
-| Unstaking $vTHOR into $THOR   | ETH                 | Ethereum                      |
+| Details                        | Gas required        | Required wallet connection    |
+| ------------------------------ | ------------------- | ----------------------------- |
+| Swap asset X to asset Y        | Native chain for X  | Native chain for X and/or Y<sup>†</sup> |
+| Swap synth X to asset Y        | RUNE ≥0.02          | THORChain                     |
+| LP asymm: deposit RUNE         | RUNE                | THORChain                     |
+| LP asymm: withdraw RUNE        | RUNE ≥0.02          | THORChain                     |
+| LP asymm: deposit asset        | Native chain        | Native chain                  |
+| LP asymm: withdraw asset       | Native chain        | Native chain                  |
+| LP symm: deposit RUNE + asset  | RUNE + native chain | THORChain and native chain    |
+| LP symm: withdraw RUNE + asset | RUNE ≥0.02          | THORChain                     |
+| LP symm: withdraw 100% asset   | RUNE ≥0.02          | THORChain                     |
+| LP symm: withdraw 100% RUNE    | RUNE ≥0.02          | THORChain                     |
+| Earn/Savers deposit            | Native chain        | Native chain                  |
+| Earn/Savers withdraw           | Native chain        | Native chain                  |
+| Staking $THOR into $vTHOR      | ETH (ERC20)         | Ethereum                      |
+| Unstaking $vTHOR into $THOR    | ETH (ERC20)         | Ethereum                      |
 
 "Native chain" means whatever chain an asset lives on.  Some examples:
 
