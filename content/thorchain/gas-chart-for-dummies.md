@@ -19,19 +19,23 @@
 
 "Native chain" means whatever chain an asset lives on.  Some examples:
 
-| Chain                | Asset        | Gas asset   |
-| -------------------- | ------------ | ----------- |
-| Avalanche C-Chain    | USDC (AVAX)  | AVAX        |
-| Binance Smart Chain  | USDC (BEP20) | BNB (BEP20) |
-| Bitcoin              | BTC          | BTC         |
-| Bitcoin Cash         | BCH          | BCH         |
-| Cosmos               | ATOM         | ATOM        |
-| Dogecoin             | DOGE         | DOGE        |
-| Ethereum             | THOR (ERC20) | ETH         |
-| Ethereum             | USDC (ERC20) | ETH         |
-| Litecoin             | LTC          | LTC         |
-| Maya Protocol        | CACAO        | CACAO       |
-| THORChain            | Any synth    | RUNE        |
+| Asset           | Chain                | Gas asset      |
+| --------------- | -------------------- | -------------- |
+| ATOM (BEP20)    | Binance Smart Chain  | BNB (BEP20)    |
+| ATOM (Cosmos)   | Cosmos               | ATOM           |
+| BCH             | Bitcoin Cash         | BCH            |
+| BTC             | Bitcoin              | BTC            |
+| CACAO           | Maya Protocol        | CACAO          |
+| DOGE            | Dogecoin             | DOGE           |
+| LTC             | Litecoin             | LTC            |
+| RUNE            | THORChain            | RUNE           |
+| Synths          | THORChain            | RUNE           |
+| THOR (ERC20)    | Ethereum             | ETH            |
+| USDC (AVAX)     | Avalanche C-Chain    | AVAX           |
+| USDC (BEP20)    | Binance Smart Chain  | BNB (BEP20)    |
+| USDT (Arbitrum) | Arbitrum             | ETH (Arbitrum) |
+| USDT (ERC20)    | Ethereum             | ETH            |
+| USK (Kujira)    | Kujira               | KUJI           |
 
 <sup>†</sup>: On THORSwap and possibly other front-ends, it is possible to swap from
 asset X to Y with only the native chain for X connected.  Simply enable the
