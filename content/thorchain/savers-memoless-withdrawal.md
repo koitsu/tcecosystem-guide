@@ -20,9 +20,10 @@ Please review the procedure <strong>before</strong> performing any actions!
 1. In your wallet, send the required amount (see below) to the address obtained in the previous step.
 
 <div class="warning">
-<strong>Only send the specific amount shown in the chart!</strong>  A different
-amount (smaller or larger) can result in a partial withdrawal or loss of the
-sent amount.
+<strong>Only send the specific amount shown in the chart!</strong>
+<p></p>
+A different amount (smaller or larger) can result in a partial withdrawal
+or loss of the sent amount.
 </div>
 
 | Savers Vault     | THORNode chain name | Amount for 100% withdrawal |
