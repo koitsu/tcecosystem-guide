@@ -6,8 +6,8 @@ The purpose of this site is to act as a "community guide", consisting of
 how-tos and FAQs for things relating to THORChain.  This includes instructions
 for how to achieve tasks on front-ends (such as THORSwap).
 
-While this site originally started as a GitHub Gist written exclusively by one
-person, over time more and more people began contributing information and
+This site originally started as a GitHub Gist written exclusively by one
+person.  Over time, more and more people began contributing information and
 reviewing procedures.  At times, even official front-ends refer users to some
 of the procedures here!
 
@@ -25,7 +25,7 @@ The site leverages [GitHub Actions]; every time there is a commit pushed to the
 `master` branch of the official GitHub repository, the site auto-builds and
 auto-updates.
 
-Users who wish to make contributions are welcome to do so via pull requests.
+Anyone who wishes to contribute is welcome to do so via GitHub pull requests.
 Contributors with a strong dedication to the site can be added as official
 collaborators on GitHub, thus allowing them to commit directly (i.e. no PRs).
 
