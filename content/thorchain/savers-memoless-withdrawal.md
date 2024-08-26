@@ -8,9 +8,9 @@ sending a small (yet very specific) amount to a special THORChain wallet
 address.  No need for a front-end!
 
 <div class="warning">
-The below procedure withdraws <strong>100%</strong> of your Savers/Earn
-position.  Please review the procedure <strong>before</strong> performing any
-actions!
+The below procedure withdraws <strong>100%</strong> of your Savers/Earn position.
+<p></p>
+Please review the procedure <strong>before</strong> performing any actions!
 </div>
 
 1. Make sure whatever wallet you're using has the wallet address which opened the Savers/Earn position.  **This is super important!**
