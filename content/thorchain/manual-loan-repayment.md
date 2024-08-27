@@ -34,7 +34,7 @@ stop and use a front-end for safety!</strong>
    - If the amount sent is in excess of the debt, the difference will be treated as a "credit" (associated with the loan address)
 1. Click **Send**
 1. The repayment transaction should be in progress.  In the THORSwap Transaction History UI (upper right of the site), you can click on the link button to be taken to [RuneScan] and watch the repayment transaction in real-time.  It will take several minutes, but [RuneScan] should eventually show "Success" for a "Repay" transaction.
-1. Once the repayment is successful, THORChain will begin the process of sending the colleteral back to the original address which opened the loan.  This is (usually) an outbound transaction and thus subject to THORChain outbound delays.  Refer to [Tracking a withdrawal](../thorswap/tracking-a-withdrawal.md) to find the outbound transaction and get its ETA.
+1. Once the repayment is successful, THORChain will begin the process of sending the collateral back to the original address which opened the loan.  This is (usually) an outbound transaction and thus subject to THORChain outbound delays.  Refer to [Tracking a withdrawal](../thorswap/tracking-a-withdrawal.md) to find the outbound transaction and get its ETA.
 
 ## Example scenario
 
