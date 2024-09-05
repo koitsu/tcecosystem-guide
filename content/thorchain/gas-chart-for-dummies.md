@@ -30,11 +30,11 @@
 | LTC             | Litecoin             | LTC            |
 | RUNE            | THORChain            | RUNE           |
 | Synths          | THORChain            | RUNE           |
-| THOR (ERC20)    | Ethereum             | ETH            |
+| THOR (ERC20)    | Ethereum             | ETH (ERC20)    |
 | USDC (AVAX)     | Avalanche C-Chain    | AVAX           |
 | USDC (BEP20)    | Binance Smart Chain  | BNB (BEP20)    |
 | USDT (Arbitrum) | Arbitrum             | ETH (Arbitrum) |
-| USDT (ERC20)    | Ethereum             | ETH            |
+| USDT (ERC20)    | Ethereum             | ETH (ERC20)    |
 | USK (Kujira)    | Kujira               | KUJI           |
 
 <sup>†</sup>: On THORSwap and possibly other front-ends, it is possible to swap from
