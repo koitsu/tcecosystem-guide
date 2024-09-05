@@ -58,7 +58,7 @@ The official THORSwap and THORChain RUNEPool documentation is quite good.  We
 urge people considering contributing to RUNEPool to read (not skim!) these
 resources:
 
-- [THORSwap's RUNEPool documentation](https://docs.thorswap.finance/thorswap/thorswap/runepool), especially the "Key Features and Considerations" section
+- [THORSwap's RUNEPool documentation](https://docs.thorswap.finance/thorswap/thorswap/runepool), especially "Key Features and Considerations"
 - [THORChain's RUNEPool documentation](https://docs.thorchain.org/thorchain-finance/runepool)
 - [THORChain's RUNEPool Developer documentation](https://dev.thorchain.org/concepts/rune-pool.html)
 - [THORChain's Medium blog post about RUNEPool](https://medium.com/thorchain/runepool-on-thorchain-bf8fef5587d5), which contains a FAQ
