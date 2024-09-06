@@ -21,9 +21,8 @@ RUNE (i.e. highly dependent upon RUNE:asset price ratio), but with one distinct
 difference: RUNEPool exposes you to multiple pools, unlike a standard LP where
 you are exposed to a single asset/pool.
 
-In reality, RUNEPool is more like a user holding multiple symmetrical LPs (i.e.
-dual-sided), with one for each pool that makes up RUNEPool.  This is even
-covered in
+In reality, RUNEPool is more like a user holding multiple dual-sided LPs,
+with one for each pool that RUNEPool consists of.  This is even covered in
 [THORChain's Medium blog post](https://medium.com/thorchain/runepool-on-thorchain-bf8fef5587d5).
 
 Regarding yield and performance: **generally speaking**, when RUNE is
