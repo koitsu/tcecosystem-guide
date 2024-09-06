@@ -6,7 +6,7 @@ There are some "baseline" facts to understand about RUNEPool:
 
 - RUNEPool **is not** the same as staking.
 - RUNEPool **does not** provide a "global APY".
-- There is no per-position breakdown of how much you've earned/lost over time.  PnL (profits-and-loss) is in real-time.
+- There is no per-position breakdown of how much you've earned/lost over time; PnL (profits-and-loss) values are in real-time.
 - Every address participating in RUNEPool will have a different PnL, based on deposit time and pool performance since deposit(s).
 - As of August 2024, the "minimum deposit lock-up period" is 30 days, not 90.  Official documentation has yet to be updated.
 
