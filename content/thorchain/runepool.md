@@ -14,27 +14,26 @@ There are some "baseline" facts to understand about RUNEPool:
 
 A "ELI5" (explain-like-I'm-five) explanation of RUNEPool's earnings "model" is
 a common request in the THORSwap Discord.  Here's a simple explanation, which
-assumes you are familiar with THORChain LP'ing:
+assumes you are familiar with THORChain LPs:
 
-RUNEPool's economic model can most easily be thought of as similar to an
-asymmetrical LP deposit of RUNE (i.e. highly dependent upon RUNE:asset price
-ratio), but with two (2) distinct differences:
+RUNEPool's economic model can be thought of like an asymmetrical LP deposit of
+RUNE (i.e. highly dependent upon RUNE:asset price ratio), but with one distinct
+difference: RUNEPool exposes you to multiple pools, unlike a standard LP where
+you are exposed to a single asset/pool.
 
-1. RUNEPool exposes you to multiple pools, unlike an LP where you are exposed to a single asset/pool.
-1. RUNEPool contributors are only rewarded with swap fees.
+In reality, RUNEPool is more like a user holding multiple symmetrical LPs (i.e.
+dual-sided), with one for each pool that makes up RUNEPool.  This is even
+covered in
+[THORChain's Medium blog post](https://medium.com/thorchain/runepool-on-thorchain-bf8fef5587d5).
 
-**Generally speaking**, when RUNE is performing well (USD value is up), a
-position's PnL will decrease (possibly negative).  However, when RUNE is
-performing poorly (USD value is down), a position's PnL will increase.
+Regarding yield and performance: **generally speaking**, when RUNE is
+performing well (USD value is up), a position's PnL will decrease (possibly
+negative).  However, when RUNE is performing poorly (USD value is down), a
+position's PnL will increase.
 
 Please note the emphasis on the phrase "generally speaking"; this description
 is not a guarantee.  As said above, everyone position's PnL will vary based on
 deposit time (much like that of an LP).
-
-Choosing to looking at RUNEPool in terms of "how much RUNE (quantity) I
-deposited vs. how much RUNE (quantity) I can withdraw" is not effective.
-RUNEPool in essence is more like an actual symmetrical LP behind the scenes,
-even though from a user's standpoint they are only depositing a single asset.
 
 ## Viewing your position
 
@@ -61,4 +60,3 @@ resources:
 - [THORSwap's RUNEPool documentation](https://docs.thorswap.finance/thorswap/thorswap/runepool), especially "Key Features and Considerations"
 - [THORChain's RUNEPool documentation](https://docs.thorchain.org/thorchain-finance/runepool)
 - [THORChain's RUNEPool Developer documentation](https://dev.thorchain.org/concepts/rune-pool.html)
-- [THORChain's Medium blog post about RUNEPool](https://medium.com/thorchain/runepool-on-thorchain-bf8fef5587d5), which contains a FAQ
