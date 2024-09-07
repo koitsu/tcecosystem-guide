@@ -38,10 +38,10 @@ deposit time (just like that of an LP).
 
 There are multiple UIs to view your RUNEPool position:
 
-- <https://runepool.replit.app/> -- "My Position" sub-tab + enter your THORChain address
+- <https://runepool.replit.app/> &mdash; "My Position" sub-tab + enter your THORChain address
   - You can also use <https://runepool.replit.app/?address=YOURADDRESS> as a bookmark.  Replace `YOURADDRESS` with your THORChain address
-- <https://thorchain.net/thorfi/runepool> -- "Members" sub-tab, in Search area enter last 6 digits of your THORChain address
-- <https://thorchain.network/runepool/> -- manually navigate each page to find your address
+- <https://thorchain.net/thorfi/runepool> &mdash; "Members" sub-tab, in Search area enter last 6 digits of your THORChain address
+- <https://thorchain.network/runepool/> &mdash; manually navigate each page to find your address
 
 ## Viewing pools and metrics
 
