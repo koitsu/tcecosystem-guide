@@ -38,8 +38,8 @@ deposit time (just like that of an LP).
 
 There are multiple UIs to view your RUNEPool position:
 
-- <https://runepool.replit.app/> -- "My Position" tab + enter your THORChain address
-- <https://thorchain.net/thorfi/runepool?tab=rune-pools> -- "Members" tab, in Search area enter last 6 digits of your THORChain address
+- <https://runepool.replit.app/> -- "My Position" sub-tab + enter your THORChain address
+- <https://thorchain.net/thorfi/runepool> -- "Members" sub-tab, in Search area enter last 6 digits of your THORChain address
 - <https://thorchain.network/runepool/> -- manually navigate each page to find your address
 
 ## Viewing pools and metrics
@@ -47,7 +47,7 @@ There are multiple UIs to view your RUNEPool position:
 There are multiple UIs examine pool metrics such as POL weight and LUVI, or
 just general RUNEPool information as an aggregate:
 
-- <https://thorchain.net/thorfi/runepool?tab=rune-pools>
+- <https://thorchain.net/thorfi/runepool>
 - <https://thorchain.network/runepool/>
 
 ## References
