@@ -31,8 +31,8 @@ negative).  However, when RUNE is performing poorly (USD value is down), a
 position's PnL will increase.
 
 Please note the emphasis on the phrase "generally speaking"; this description
-is not a guarantee.  As said above, everyone position's PnL will vary based on
-deposit time (much like that of an LP).
+is not a guarantee.  As said above, every position's PnL will vary based on
+deposit time (just like that of an LP).
 
 ## Viewing your position
 
