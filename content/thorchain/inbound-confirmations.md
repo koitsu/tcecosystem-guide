@@ -8,7 +8,6 @@ Reviewing inbound confirmations is somewhat complicated and technical:
 
 1. Visit `https://thornode.ninerealms.com/thorchain/tx/status/YOUR_TRANSACTION_HASH` in your browser
    - Replace `YOUR_TRANSACTION_HASH` with the Transaction Hash/ID from the earlier procedure
-   - You may need to ensure the Transaction Hash/ID is in **all lowercase**
    - If you see the message `{"error":"rpc error: code = Unknown desc = internal"}` then the Transaction Hash/ID is wrong
 1. If the transaction is found, you should be shown a JSON blob (a bunch of technical data in text)
 1. Look through the structured data for a section called `stages`
