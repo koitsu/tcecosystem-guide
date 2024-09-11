@@ -26,7 +26,7 @@ Ledger, especially with UTXO-based chains (ex. BTC, DOGE, etc.), tends to
 is able to aggregate all the assets/quantities into one lump sum.  This is
 indirectly described in the official Ledger document titled
 [Understanding Crypto Addresses and Derivation Paths][2].
-However, THORSwap cannot do this -- it can only see one index at a time
+However, THORSwap cannot do this &mdash; it can only see one index at a time
 (default index 0).  Here's an example:
 
 - Pretend your Ledger Live says you have 1.2 BTC total
@@ -38,7 +38,7 @@ The workaround:
 
 1. Ensure Ledger Live is not running or in the system tray; if so, exit it
 1. Connect your Ledger to THORSwap on the chain of your choice
-1. Click the **Wallet** button in THORSwap and examine what your wallet address is -- this is the address of index 0.  Save/copy this address
+1. Click the **Wallet** button in THORSwap and examine what your wallet address is &mdash; this is the address of index 0.  Save/copy this address
 1. Disconnect your Ledger from THORSwap
 1. Launch Ledger Live
 1. In Ledger Live, send the quantity of the asset to the address you previously copied in an earlier step

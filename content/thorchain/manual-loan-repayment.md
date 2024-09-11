@@ -35,7 +35,7 @@ support this feature due to its advanced use.
 1. Get your loan address.  This is the wallet address with which you provided collateral.  Ex: if you opened a loan using BTC, this would be your Bitcoin address
 1. Look up details of the loan using the [Midgard API]: `https://midgard.ninerealms.com/v2/borrower/YOUR_WALLET_ADDRESS`
    - In the above link, replace `YOUR_WALLET_ADDRESS` with your loan address from the previous step
-   - In the resulting page, take note of the `collateral_asset` field -- you'll need it later
+   - In the resulting page, take note of the `collateral_asset` field &mdash; you'll need it later
 1. In the upper right corner of THORSwap: **Cog wheel > Pro Mode Settings > Show Send Custom Tx > Enable**
 1. In the menu on the left, click **Wallet > Send** and then **enable** the **Toggle custom MsgDeposit form** option
 1. You must now manually create the memo string of the transaction.  This should be `LOAN-:collateral_asset:loan_address`
