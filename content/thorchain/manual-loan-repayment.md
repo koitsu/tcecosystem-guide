@@ -1,13 +1,22 @@
 # Manual loan repayment
 
-When paying off a loan on THORChain, as of this writing (2023/12/29), it's
-common that there is price movement during the transaction.  This can/will
-result in a very small amount of debt remaining (usually in US cents),
-which blocks the return of your collateral.  You can check this by following
-the [Loan status](loan-status.md) procedure.
+This article describes how you can pay off a loan manually by creating a
+THORChain memo using the MsgDeposit feature and exclusively using RUNE
+as the repayment asset.
 
-The rest of this article describes how you can pay off the remaining part of
-the loan by manually creating a THORChain memo using the MsgDeposit feature.
+This can be useful in two (2) scenarios:
+
+1. Paying off a loan that has a small amount left on it.  As of this writing (2023/12/29), it's common that there is price movement during the transaction.  This can/will result in a very small amount of debt remaining (usually in US cents), which blocks the return of your collateral
+1. Cases where THORChain lending is partially suspended due to protocol issues.  When this is the case, front-ends tend to inhibit you from doing any loan operations, even though closures or repayments are usually still functional
+
+<div class="warning">
+<strong>This procedure only works when using RUNE as the repayment asset.</strong>
+<p></p>
+<strong>Other assets cannot be used with this procedure!</strong>
+</div>
+
+You can check the status of a loan at any time by following the
+[Loan status](loan-status.md) procedure.
 
 <div class="warning">
 The below procedure is an advanced feature that should not be performed by
@@ -19,6 +28,9 @@ stop and use a front-end for safety!</strong>
 </div>
 
 ## Procedure
+
+The below procedure uses THORSwap as a front-end.  Other front-ends may not
+support this feature due to its advanced use.
 
 1. Get your loan address.  This is the wallet address with which you provided collateral.  Ex: if you opened a loan using BTC, this would be your Bitcoin address
 1. Look up details of the loan using the [Midgard API]: `https://midgard.ninerealms.com/v2/borrower/YOUR_WALLET_ADDRESS`
@@ -43,7 +55,7 @@ stop and use a front-end for safety!</strong>
 - They have paid off 99% of their loan, but a small amount of debt worth US$0.45 remains and they need to pay it off fully
 - They don't have any other assets to use to pay off their loan, so their friend comes to the rescue
 - Their friend wants to help pay off their remaining debt using RUNE
-- In this scenario, 1 RUNE is worth US$1.00
+- In this example, 1 RUNE is worth US$1.00
 
 The friend then does the following:
 
@@ -54,7 +66,7 @@ The friend then does the following:
 1. Selects RUNE, and chooses an amount of 1.01.  (The minimum amount of RUNE you can send has exceed that of US$1.00.  This is a THORSwap limitation.)
 1. Clicks Send
    - A total of 1.03 RUNE will taken from their wallet: 1.01 for the loan repayment, and 0.02 for transaction fees/gas
-   - The $0.56 worth of RUNE "in excess" will be tracked as a credit, associated with the loan address `0x123abcd`
+   - The US$0.56 worth of RUNE "in excess" will be tracked as a credit, associated with the loan address `0x123abcd`
 1. Waits a few minutes then checks the transaction on [RuneScan]: it says "Success" and "Repay"
 1. Waits a few more minutes, then follows the [Tracking a withdrawal](../thorswap/tracking-a-withdrawal.md) procedure
    - He finds the ETH collateral is in the [Scheduled Queue](queues.md) and is to be processed in 55 minutes
