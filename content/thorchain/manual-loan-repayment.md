@@ -63,7 +63,7 @@ The friend then does the following:
 1. Visits `https://midgard.ninerealms.com/v2/borrower/0x123abcd` and sees `collateral_asset` is `ETH.ETH`
 1. Connects their THORChain wallet to THORSwap, enables "Show Send Custom Tx", and goes to Wallet > Send
 1. Manually enters a memo of `LOAN-:ETH.ETH:0x123abcd`
-1. Selects RUNE, and chooses an amount of 1.01.  (The minimum amount of RUNE you can send has exceed that of US$1.00.  This is a THORSwap limitation.)
+1. Selects RUNE, and chooses an amount of 1.01.  (The minimum amount of RUNE you can send must exceed US$1.00.  This is a THORSwap limitation.)
 1. Clicks Send
    - A total of 1.03 RUNE will taken from their wallet: 1.01 for the loan repayment, and 0.02 for transaction fees/gas
    - The US$0.56 worth of RUNE "in excess" will be tracked as a credit, associated with the loan address `0x123abcd`
