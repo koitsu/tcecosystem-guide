@@ -22,7 +22,7 @@ The below procedure uses THORSwap as a front-end.  Other front-ends may not
 support this feature due to its advanced use.
 
 1. Visit THORSwap
-1. Connect your THORChain/RUNE wallet
+1. Connect your THORChain/RUNE wallet originally used for the RUNEPool deposit
    - Make sure your wallet contains at least 0.02 RUNE to pay for gas!
 1. In the upper right corner of THORSwap: **Cog wheel > Pro Mode Settings > Show Send Custom Tx > Enable**
 1. In the menu on the left, click **Wallet > Send** and then **enable** the **Toggle custom MsgDeposit form** option
@@ -33,4 +33,4 @@ support this feature due to its advanced use.
 1. Click **Send**
 1. The withdrawal should happen quickly (since everything is native to THORChain and not off-network)
 
-[1]: https://dev.thorchain.org/concepts/memos.html#repay-loan
+[1]: https://dev.thorchain.org/concepts/memos.html#withdraw-runepool
