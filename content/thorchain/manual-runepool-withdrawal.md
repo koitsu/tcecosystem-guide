@@ -31,6 +31,6 @@ support this feature due to its advanced use.
    - `basispoints` should be a value of 0 to 10000, where `10000` means withdraw 100%, `5000` means withdraw 50%, etc.
    - **Do not** specify AFFILIATE or FEE parameters!
 1. Click **Send**
-1. The withdrawl should happen quickly (since everything is native to THORChain and not off-network)
+1. The withdrawal should happen quickly (since everything is native to THORChain and not off-network)
 
 [1]: https://dev.thorchain.org/concepts/memos.html#repay-loan
