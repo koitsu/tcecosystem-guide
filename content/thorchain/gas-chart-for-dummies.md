@@ -14,6 +14,8 @@
 | LP symm: withdraw 100% RUNE    | RUNE ≥0.02          | THORChain                     |
 | Earn/Savers deposit            | Native chain        | Native chain                  |
 | Earn/Savers withdraw           | Native chain        | Native chain                  |
+| RUNEPool deposit               | RUNE ≥0.02          | THORChain                     |
+| RUNEPOol withdraw              | RUNE ≥0.02          | THORChain                     |
 | Staking $THOR into $vTHOR      | ETH (ERC20)         | Ethereum                      |
 | Unstaking $vTHOR into $THOR    | ETH (ERC20)         | Ethereum                      |
 
