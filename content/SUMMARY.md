@@ -12,6 +12,7 @@
   - [Inbound confirmations](thorchain/inbound-confirmations.md)
   - [Loan status](thorchain/loan-status.md)
   - [Manual loan repayment](thorchain/manual-loan-repayment.md)
+  - [Manual RUNEPool withdrawal](thorchain/manual-runepool-withdrawal.md)
   - [Queues](thorchain/queues.md)
   - [RUNEPool](thorchain/runepool.md)
   - [Savers/Earn memoless withdrawal](thorchain/savers-memoless-withdrawal.md)
