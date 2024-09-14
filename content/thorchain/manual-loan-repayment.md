@@ -41,8 +41,8 @@ support this feature due to its advanced use.
 1. You must now manually create the memo string of the transaction.  This should be `LOAN-:collateral_asset:loan_address`
    - Refer to [official THORChain memo documentation][1] for the **Repay Loan** memo syntax itself
    - **Do not** specify a MINOUT parameter!
-1. Select the source asset you want to use to pay off the loan, and the amount.  Things to note:
-   - Gas/transaction fees will come of out of the sender's wallet and **is not** part of the "amount to send"
+1. Things to note:
+   - You will need at least 0.02 RUNE in your THORChain wallet to pay for gas
    - If the amount sent is in excess of the debt, the difference will be treated as a "credit" (associated with the loan address)
 1. Click **Send**
 1. The repayment transaction should be in progress.  In the THORSwap Transaction History UI (upper right of the site), you can click on the link button to be taken to [RuneScan] and watch the repayment transaction in real-time.  It will take several minutes, but [RuneScan] should eventually show "Success" for a "Repay" transaction.
