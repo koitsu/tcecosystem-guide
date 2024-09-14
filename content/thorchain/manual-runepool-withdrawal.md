@@ -37,7 +37,7 @@ support this feature due to its advanced use.
 <div class="warning">
 Please note that after doing so, THORSwap's Transaction History UI will show an
 infinite spinner.  When expanding the UI, it will state that there is a pending
-**Deposit** transaction of **Send 0 RUNE**.
+"Deposit" transaction of "Send 0 RUNE".
 <p></p>
 This is a THORSwap UI bug.  You can safely ignore it, or click the trash can icon,
 then Confirm, to clear your entire Transaction History.  (Sadly there is no way to
