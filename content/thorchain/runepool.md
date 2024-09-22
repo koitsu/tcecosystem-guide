@@ -51,6 +51,38 @@ just general RUNEPool information as an aggregate:
 - <https://thorchain.net/thorfi/runepool>
 - <https://thorchain.network/runepool/>
 
+## Determining withdrawal quantity
+
+When withdrawing from RUNEPool, the only transaction seen on THORChain's
+blockchain is the withdrawal request itself.  This comes in the form of a memo
+instructs THORChain to initiate the withdrawal, and (effectively) the
+percentage to withdraw (ex: `POOL-:10000` means withdraw 100% from RUNEPool).
+
+The actual quantity of RUNE returned to the user's wallet is not found on the
+blockchain (i.e. you will not find it on RuneScan), which poses a problem when
+using third-party services for tax or financial ledger purposes (ex. Koinly);
+THORChain simply adds to the user's wallet the relevant amount of RUNE.
+
+So how do we determine what actual RUNE quantity was returned to a wallet?
+
+To do this, we need the original withdrawal request transaction ID, as well as a
+"special" URL that can see within the internal THORChain accounting/ledger
+layer called Cosmos.
+
+The URL is `https://thornode-v2.ninerealms.com/cosmos/tx/v1beta1/txs/YOURTRANSACTIONID`
+
+This will return a JSON blob with various information.  The amount is stored
+deep within nested sections:
+
+- `tx_response` &rarr; `logs` &rarr; `events` &rarr; `rune_pool_withdraw`
+
+Once you find `rune_pool_withdraw`, look for a key called `rune_amount` and its
+associated `value`.  This number will be in 1e8 format (i.e. 10^8), so you will
+need to do some basic math to turn it into actual RUNE quantity.  Two examples:
+
+- 77266305 &rarr; `77266305 / 10^8` &rarr; 0.77266305 RUNE
+- 7551111378 &rarr; `7551111378 / 10^8` &rarr; 75.51111378 RUNE
+
 ## References
 
 The official THORSwap and THORChain RUNEPool documentation is quite good.  We
