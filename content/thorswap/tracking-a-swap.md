@@ -8,9 +8,10 @@ beginning early 2024, THORSwap began integrating other providers
 - April 2024: [Maya Protocol][2]
 
 <div class="warning">
-As of this writing (2024/08/04), Chainflip and Maya-based swaps do not show
-up in the THORSwap Transaction History UI in the upper-right corner.  Instead,
-users will be shown a blank page or a page with a never-ending spinner.
+As of this writing (early August 2024), Chainflip and Maya-based swaps do not
+show up in the THORSwap Transaction History UI in the upper-right corner.
+Instead, users will be shown a blank page or a page with a never-ending
+spinner.
 </div>
 
 Below are per-provider instructions for how you can find your swap.

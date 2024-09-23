@@ -6,13 +6,13 @@ THORSwap transaction tracker show things in a "pending" state for a very long
 time.  In other cases, the THORSwap transaction tracker doesn't show anything,
 or might even show a blank page.
 
-As of this writing (2023-11-19) there are bugs/quirks with the THORSwap
-transaction tracker's "Details" feature, where parts of the UI don't get
-updated properly.  This leads to users panicking, thinking something has
-gone wrong, followed by claims that their transaction is "stuck".
+As of mid-November 2023, there are bugs/quirks with the THORSwap transaction
+tracker's "Details" feature, where parts of the UI don't get updated properly.
+This leads to users panicking, thinking something has gone wrong, followed by
+claims that their transaction is "stuck".
 
-Most of the time (~98%) the transaction is not "stuck", but subject to
-one or more conditions that can delay a transaction:
+Most of the time (~98%) the transaction is not "stuck", but subject to one or
+more conditions that can delay a transaction.
 
 ## Inbound confirmation counts
 
@@ -39,7 +39,7 @@ In mid-January 2024, THORChain implemented
 to help ease some of the burden of said this security mechanism.
 You can check your THORChain clout score by using the
 [rune.tools Swapper Clout](https://rune.tools/clout)
-application.
+website.
 
 ## Streaming swaps
 
