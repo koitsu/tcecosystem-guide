@@ -6,7 +6,7 @@ as the repayment asset.
 
 This can be useful in two (2) scenarios:
 
-1. Paying off a loan that has a small amount left on it.  As of this writing (late December 2023), it's common that there is price movement during the transaction.  This can/will result in a very small amount of debt remaining (usually in US cents), which blocks the return of your collateral
+1. Paying off a loan that has a small amount left on it.  As of late December 2023, it's common that there is price movement during the transaction.  This can/will result in a very small amount of debt remaining (usually in US cents), which blocks the return of your collateral
 1. Cases where THORChain lending is partially suspended due to protocol issues.  When this is the case, front-ends tend to inhibit you from doing any loan operations, even though closures or repayments are usually still functional
 
 <div class="warning">

@@ -18,7 +18,7 @@ of slippage fees.
 
 ## I just opened my LP or Earn/Savers and it's not showing up in THORYield!
 
-THORYield as of this writing (2023/11/15) is a bit slow to notice new LPs and
+As of mid-November 2023, THORYield is a bit slow to notice new LPs and
 Savers/Earn accounts.  **Please give things 24-48 hours to settle.**
 
 In the meantime, you can use the [THORChain Network Explorer] to verify your

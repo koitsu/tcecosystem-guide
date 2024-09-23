@@ -11,12 +11,14 @@ THORSwap also effectively removed support for both, including the
 
 ## BEP2
 
-As of February 10th 2024, two (2) exchanges [Bybit] and [Coinlocally] are no
+As of early February 2024, two (2) exchanges [Bybit] and [Coinlocally] are no
 longer accepting BEP2 RUNE deposits.  It is unknown whether or not such
 deposits will be restored.
 
-As of this writing there are no known ways to convert BEP2 RUNE into native
+<div class="warning">
+There are currently no known ways to convert BEP2 RUNE into native
 RUNE or another asset.
+</div>
 
 ## ERC20
 
@@ -32,7 +34,7 @@ Here are some links covering the history and evidence of the deprecation:
 - Example of THORChain Twitter/X announcement: <https://t.me/thorchain_org/610902>
 - Example of THORChain Telegram announcement: <https://t.me/thorchain_org/476777>
 - Example of THORChain Dev Discord announcement (screenshot): <https://t.me/thorchain_org/610927>
-- Official statement from THORSwap circa March 2024 (screnshot): <https://ibb.co/8jYMkP0>
+- Official statement from THORSwap circa March 2024 (screenshot): <https://ibb.co/8jYMkP0>
 
 [1]: https://medium.com/thorchain/thorchain-q2-23-ecosystem-report-c1f4d6a4c3fb
 [2]: https://www.youtube.com/watch?v=xp0t5cOW2os
