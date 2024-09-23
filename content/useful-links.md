@@ -1,70 +1,40 @@
 # Useful links
 
-- [9R Dashboards]
-- [9R THORChain Ops]
-- [9R THORChain Tracker]
-  - [/pending endpoint]
-- [RuneScan]
-- [THORChain]
-- [THORChain Network Explorer]
-- [THORCharts]
-- [THORSwap]
-- [THORSwap Community Forum]
-- [THORSwap Feedback]
-- [THORYield]
-- [THORYield Transaction Tracker]
+- [9R Dashboards](https://dashboards.ninerealms.com/)
+- [9R THORChain Ops](https://ops.ninerealms.com/)
+- [9R THORChain Tracker](https://track.ninerealms.com/)
+  - [/pending endpoint](https://track.ninerealms.com/pending)
+- [RUNE Tools](https://rune.tools/)
+- [RuneScan](https://runescan.io/)
+- [THORChain](https://thorchain.org/)
+- [THORChain Network Explorer](https://thorchain.net/dashboard)
+- [THORCharts](https://thorcharts.org/)
+- [THORSwap](https://www.thorswap.finance/)
+- [THORSwap Community Forum](https://forum.thorswap.finance/)
+- [THORSwap Feedback](https://thorswap.canny.io/)
+- [THORYield](https://thoryield.com/)
+- [THORYield Transaction Tracker](https://app.thoryield.com/tx_tracker)
 - THORChain node information
-  - [Mimir voting results]
-  - [THORChain Network]
-  - [THORNode]
+  - [Mimir voting results](https://ops.ninerealms.com/mimir)
+  - [THORChain Network Nodes](https://thorchain.network/nodes/)
+  - [THORNode](https://thornode.network/)
 - Service documentation
-  - [Midgard API v1 (Microgard)]
-  - [Midgard API v2]
-  - [THORChain Ecosystem Docs]
-  - [THORChain Developer Docs]
-  - [THORNode Docs]
-  - [THORSwap Docs]
-  - [THORSwap SwapKit Docs]
+  - [Midgard API v1 (Microgard)](https://mu.thorswap.net/doc)
+  - [Midgard API v2](https://midgard.ninerealms.com/v2/doc)
+  - [THORChain Developer Docs](https://dev.thorchain.org/)
+  - [THORChain Ecosystem Docs](https://docs.thorchain.org/)
+  - [THORNode Docs](https://thornode.ninerealms.com/thorchain/doc)
+  - [THORSwap Docs](https://docs.thorswap.finance/)
+  - [THORSwap SwapKit Docs](https://docs.thorswap.finance/swapkit-docs)
 - Blogs
-  - [THORChain Medium]
-  - [THORChain University Medium]
-  - [THORSwap Medium]
+  - [THORChain Medium](https://thorchain.medium.com/)
+  - [THORChain University Medium](https://thorchain-university.medium.com/)
+  - [THORSwap Medium](https://thorswap.medium.com/)
 - Chats
-  - [THORChain Developer Discord] &mdash; **warning: dev chat only!**
-  - [THORSwap Discord]
-  - [THORSwap Telegram]
+  - [THORChain Developer Discord](https://discord.gg/tW64BraTnX) &mdash; **warning: dev chat only!**
+  - [THORSwap Discord](https://discord.gg/ST2hfVB5)
+  - [THORSwap Telegram](https://t.me/thorswap_ann)
 - Social media
-  - [THORChain Twitter]
-  - [THORSwap Twitter]
-
-[9R Dashboards]: https://dashboards.ninerealms.com/
-[9R THORChain Ops]: https://ops.ninerealms.com/
-[9R THORChain Tracker]: https://track.ninerealms.com/
-[/pending endpoint]: https://track.ninerealms.com/pending
-[Midgard API v1 (Microgard)]: https://mu.thorswap.net/doc
-[Midgard API v2]: https://midgard.ninerealms.com/v2/doc
-[Mimir voting results]: https://ops.ninerealms.com/mimir
-[RuneScan]: https://runescan.io/
-[THORChain]: https://thorchain.org/
-[THORChain Ecosystem Docs]: https://docs.thorchain.org/
-[THORChain Developer Discord]: https://discord.gg/tW64BraTnX
-[THORChain Developer Docs]: https://dev.thorchain.org/
-[THORChain Medium]: https://thorchain.medium.com/
-[THORChain Network]: https://thorchain.network/nodes/
-[THORChain Network Explorer]: https://thorchain.net/dashboard
-[THORChain University Medium]: https://thorchain-university.medium.com/
-[THORChain Twitter]: https://twitter.com/THORChain
-[THORCharts]: https://thorcharts.org/
-[THORNode]: https://thornode.network/
-[THORNode Docs]: https://thornode.ninerealms.com/thorchain/doc
-[THORSwap]: https://www.thorswap.finance/
-[THORSwap Community Forum]: https://forum.thorswap.finance/
-[THORSwap Medium]: https://thorswap.medium.com/
-[THORSwap Discord]: https://discord.gg/ST2hfVB5
-[THORSwap Docs]: https://docs.thorswap.finance/
-[THORSwap Feedback]: https://thorswap.canny.io/
-[THORSwap SwapKit Docs]: https://docs.thorswap.finance/swapkit-docs
-[THORSwap Telegram]: https://t.me/thorswap_ann
-[THORSwap Twitter]: https://twitter.com/thorswap
-[THORYield]: https://thoryield.com/
-[THORYield Transaction Tracker]: https://app.thoryield.com/tx_tracker
+  - [9R X](https://x.com/ninerealms_cap)
+  - [THORChain X](https://x.com/THORChain)
+  - [THORSwap X](https://x.com/thorswap)
