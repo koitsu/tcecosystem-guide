@@ -21,7 +21,7 @@ etc.), it requires a certain number of
 [inbound confirmations](https://thorchain-university.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#f667)
 before continuing to process the transaction.
 
-For more details about this subject, refer
+For more details about this subject, refer to
 [inbound confirmations](inbound-confirmations.md).
 
 ## Outbound throttling
