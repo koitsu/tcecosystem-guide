@@ -3,7 +3,8 @@
 ## Installing and using the THORChain Ledger app
 
 1. [Follow Ledger's official documentation][1]
-1. At the **Pending Ledger review** screen, press **both buttons** on your Ledger
+1. At the **Pending Ledger review** screen, **press and release both buttons** on your Ledger
+1. The screen should now read **THORChain ready**
 1. Connect your Ledger to whatever front-end supports Ledger and THORChain
 
 <div class="warning">
