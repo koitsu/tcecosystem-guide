@@ -25,4 +25,8 @@ being returned to you:
   a loan credit is present), as described above
 - Follow the [Tracking a withdrawal](../thorswap/tracking-a-withdrawal.md) procedure
 
+If you have a loan that you've paid off, but still have a small amount left on it
+(ex. less than US$1.00), refer to [Manual loan repayment](manual-loan-repayment.html)
+to learn how to pay off the small remainder.
+
 [RuneScan]: https://runescan.io/
