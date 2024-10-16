@@ -35,7 +35,7 @@
 | THOR (ERC20)    | Ethereum             | ETH (ERC20)    |
 | USDC (AVAX)     | Avalanche C-Chain    | AVAX           |
 | USDC (BEP20)    | Binance Smart Chain  | BNB (BEP20)    |
-| USDT (Arbitrum) | Arbitrum             | ETH (Arbitrum) |
+| USDT (ARB)      | Arbitrum             | ETH (ARB)      |
 | USDT (ERC20)    | Ethereum             | ETH (ERC20)    |
 | USK (Kujira)    | Kujira               | KUJI           |
 
