@@ -17,7 +17,7 @@ deposits will be restored.
 
 <div class="warning">
 There are currently no known ways to convert BEP2 RUNE into native
-RUNE or another asset.
+RUNE or another asset.  BEP2 RUNE holds no value.
 </div>
 
 ## ERC20
