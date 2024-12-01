@@ -50,5 +50,5 @@ The workaround:
 
 <sup>†</sup>: We're unsure if this is account indexes or address indexes, but the end result for the user is the same regardless.
 
-[1]: https://support.ledger.com/hc/en-us/articles/4402987997841-THORChain-RUNE-?docs=true
+[1]: https://support.ledger.com/article/4402987997841-zd
 [2]: https://www.ledger.com/blog/understanding-crypto-addresses-and-derivation-paths
