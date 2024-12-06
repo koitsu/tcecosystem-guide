@@ -57,16 +57,16 @@ in a pool, may be longer than expected (ex. 24 hours or longer).
 
 ## Wallet-related delays
 
-Every wallet requires a number of of blockchain confirmation counts before
+Every wallet requires a number of blockchain confirmation counts before
 funds are considered "in your wallet".  The number varies per wallet; there is
 no standard.
 
 Blockchain validators (miners) can sometimes take a while to verify
 transactions.  For example, on the BTC blockchain, there have been times where
-validators have taken upwards of 60 minutes to validate and provide enough
+validators have taken upwards of 90 minutes to validate and provide enough
 confirmations for funds to appear in a user's wallet.  We have also seen times
 of over 2 hours on the BCH blockchain.  This is not the fault of THORChain.
 
 If you've verified using a blockchain explorer that funds have arrived at
 your address, but your wallet still isn't seeing them, contact the support
-team associated with your wallet.
+team associated with your wallet (ex. Trust Wallet, Ledger, Metamask, etc.).
