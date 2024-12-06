@@ -36,7 +36,7 @@ which covers this and additional scenarios.
 
 In mid-January 2024, THORChain implemented
 [swapper clout](https://gitlab.com/thorchain/thornode/-/issues/1723)
-to help ease some of the burden of said this security mechanism.
+to help ease some of the burden of said security mechanism.
 You can check your THORChain clout score by using the
 [RUNE Tools Swapper Clout](https://rune.tools/clout)
 website.
