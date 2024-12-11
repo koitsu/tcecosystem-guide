@@ -48,6 +48,7 @@ There are multiple UIs to view your RUNEPool position:
 There are multiple UIs examine pool metrics such as POL weight and LUVI, or
 just general RUNEPool information as an aggregate:
 
+- <https://rune.tools/pool>
 - <https://thorchain.net/thorfi/runepool>
 - <https://thorchain.network/runepool/>
 
