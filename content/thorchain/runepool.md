@@ -25,14 +25,8 @@ In reality, RUNEPool is more like a user holding multiple dual-sided LPs,
 with one for each pool that RUNEPool consists of.  This is even covered in
 [THORChain's Medium blog post](https://medium.com/thorchain/runepool-on-thorchain-bf8fef5587d5).
 
-Regarding yield and performance: **generally speaking**, when RUNE is
-performing well (USD value is up), a position's PnL will decrease (possibly
-negative).  However, when RUNE is performing poorly (USD value is down), a
-position's PnL will increase.
-
-Please note the emphasis on the phrase "generally speaking"; this description
-is not a guarantee.  As said above, every position's PnL will vary based on
-deposit time (just like that of an LP).
+Regarding yield and performance: every position's PnL will vary based on
+deposit time, just like that of a standard THORChain LP.
 
 ## Viewing your position
 
