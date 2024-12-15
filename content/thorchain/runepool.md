@@ -50,12 +50,12 @@ just general RUNEPool information as an aggregate:
 
 When withdrawing from RUNEPool, the only transaction seen on THORChain's
 blockchain is the withdrawal request itself.  This comes in the form of a memo
-instructs THORChain to initiate the withdrawal, and (effectively) the
-percentage to withdraw (ex: `POOL-:10000` means withdraw 100% from RUNEPool).
+which instructs THORChain to initiate the withdrawal, and (effectively) the
+percentage to withdraw.  For example: `POOL-:10000` means withdraw 100% from RUNEPool.
 
 The actual quantity of RUNE returned to the user's wallet is not found on the
 blockchain (i.e. you will not find it on RuneScan), which poses a problem when
-using third-party services for tax or financial ledger purposes (ex. Koinly);
+using third-party services for tax or financial ledger purposes (e.g. Koinly);
 THORChain simply adds to the user's wallet the relevant amount of RUNE.
 
 So how do we determine what actual RUNE quantity was returned to a wallet?
