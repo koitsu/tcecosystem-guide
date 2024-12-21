@@ -4,9 +4,9 @@ There are two (2) ways you can check the state of your loan:
 
 ## rune.tools
 
-1. Visit [rune.tools Lending app]
+1. Visit the [rune.tools Lending app]
 1. Select the collateral asset type (BTC or ETH)
-1. Enter yoor loan address.  This is the wallet address with which you provided collateral.  Ex: if you opened a loan using BTC, this would be your Bitcoin address
+1. Enter your loan address.  This is the wallet address with which you provided collateral.  Ex: if you opened a loan using BTC, this would be your Bitcoin address
 
 You will be shown your current debt and current collateral amounts.
 
@@ -26,7 +26,7 @@ If your current debt is a negative amount, then your address has a loan credit.
 
 If you're closing a loan and want to check the status of your collateral being returned to you:
 
-1. Use one of the above two sites and ensure you have either a) no open loan, or b) a loan credit.
+1. Use one of the above two sites and ensure you have either a) no open loan, or b) a loan credit
 1. Follow the [Tracking a withdrawal](../thorswap/tracking-a-withdrawal.md) procedure
 
 If your debt has been mostly paid off, but shows small remainder left (ex. less than US$1.00), refer to the
