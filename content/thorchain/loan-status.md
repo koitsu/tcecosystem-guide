@@ -1,8 +1,10 @@
 # Loan status 
 
+## Procedure
+
 There are two (2) ways you can check the state of your loan:
 
-## rune.tools
+### rune.tools
 
 1. Visit the [rune.tools Lending Position app]
 1. Select the collateral asset type (BTC or ETH)
@@ -12,7 +14,7 @@ You will be shown your current debt and current collateral amounts.
 
 If your current debt is shown as $0.00 then your loan has been paid off in full (or has a loan credit).
 
-## RuneScan
+### RuneScan
 
 1. Visit [RuneScan]
 1. Search for your loan address.  This is the wallet address with which you provided collateral.  Ex: if you opened a loan using BTC, this would be your Bitcoin address
