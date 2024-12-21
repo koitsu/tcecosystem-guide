@@ -28,7 +28,7 @@ If your current debt is shown as $0.00 then your loan has been paid off in full 
 
 If you're closing a loan and want to check the status of your collateral being returned to you:
 
-1. Use one of the above two sites and ensure you have either a) no remaining debt, or b) a loan credit
+1. Follow the above procedure and ensure you have either a) no remaining debt, or b) a loan credit
 1. Follow the [Tracking a withdrawal](../thorswap/tracking-a-withdrawal.md) procedure
 
 If your debt has been mostly paid off, but shows small remainder left (ex. less than $1.00), refer to the
