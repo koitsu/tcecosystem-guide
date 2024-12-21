@@ -22,7 +22,7 @@ If your current debt is shown as $0.00 then your loan has been paid off in full 
    - If there is no **Loans** tab, then the address no longer has an open loan
    - If there is a negative value for **Debt Current** then your address has a loan credit
 
-# Collateral return check
+## Collateral return check
 
 If you're closing a loan and want to check the status of your collateral being returned to you:
 
