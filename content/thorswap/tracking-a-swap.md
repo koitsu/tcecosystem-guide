@@ -21,7 +21,7 @@ especially in cases where THORChain RUNE is involved.
 
 ## Maya Protocol procedure
 
-1. Visit [MayaScan]
+1. Visit [Xscanner] or [MayaScan]
 1. Enter your source or destination wallet address (source wallet preferred) in the search box
 1. If your swap was done through Maya, you should be shown transaction details.  Click on the transaction ID to see a progress meter (if streaming swaps were used), and transaction aggregation features
 1. If your swap is not found, try the next protocol/path below
@@ -52,3 +52,4 @@ especially in cases where THORChain RUNE is involved.
 [Chainflip swap tracker]: https://scan.chainflip.io/swaps
 [MayaScan]: https://www.mayascan.org/
 [RuneScan]: https://runescan.io/
+[Xscanner]: https://www.xscanner.org/
