@@ -13,7 +13,7 @@ Transactions in the Scheduled Queue are intentionally delayed due to
 THORChain's [outbound throttling](delays.md) security mechanism.
 
 Transactions in this queue have an **ETA** field, which is the amount of time
-remaining until your transaction is moved into the Outbound Queue.
+remaining until a transaction is moved into the Outbound Queue.
 
 The Scheduled Queue data comes directly from the `/thorchain/queue/scheduled`
 [THORNode API endpoint][1].
