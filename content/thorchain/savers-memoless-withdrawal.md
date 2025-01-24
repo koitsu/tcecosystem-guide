@@ -3,6 +3,16 @@
 If you have a Savers/Earn position you wish to withdraw and are unable to use a
 THORChain front-end, you can try a [memoless withdrawal].
 
+<div class="warning"><strong>
+DO NOT use this procedure if Savers/Earn withdrawals are paused by THORChain (administrative Mimir `BURNSYNTHS=1`).
+<p></p>
+Doing so will result in your Savers/Earn position being withdrawn completely and your funds lost.
+<p></p>
+This is a THORChain protocol bug that has yet to be fixed (as of 2025/01/24).
+<p></p>
+YOU HAVE BEEN WARNED.
+</strong></div>
+
 This little-known feature of THORChain allows you to issue a withdrawal by
 sending a small (yet very specific) amount to a special THORChain wallet
 address.  No need for a front-end!
