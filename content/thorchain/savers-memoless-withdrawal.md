@@ -4,7 +4,7 @@ If you have a Savers/Earn position you wish to withdraw and are unable to use a
 THORChain front-end, you can try a [memoless withdrawal].
 
 <div class="warning"><strong>
-DO NOT use this procedure if Savers/Earn withdrawals are paused by THORChain (administrative Mimir `BURNSYNTHS=1`).
+DO NOT use this procedure if Savers/Earn withdrawals are paused by THORChain (administrative Mimir BURNSYNTHS=1).
 <p></p>
 Doing so will result in your Savers/Earn position being withdrawn completely and your funds lost.
 <p></p>
