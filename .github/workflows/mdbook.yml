@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
-      MDBOOK_VERSION: 0.4.37
+      MDBOOK_VERSION: 0.4.44
     steps:
       - uses: actions/checkout@v4
       - name: Install mdBook
