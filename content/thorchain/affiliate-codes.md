@@ -26,6 +26,8 @@ to this chart, please submit a PR via GitHub.
 | `cb`         | CoinBot              | |
 | `commission` | ?                    | |
 | `cs`         | CacaoSwap            | |
+| `ma`         | Moca                 | |
+| `moca`       | Moca                 | |
 | `dcf`        | DecentralFi          | |
 | `ds`         | Defispot             | |
 | `dx`         | Asgardex             | |
