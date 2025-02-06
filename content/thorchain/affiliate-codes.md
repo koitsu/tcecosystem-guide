@@ -17,8 +17,8 @@ to this chart, please submit a PR via GitHub.
 | ?            | RocketX              | |
 | ?            | Swing.xyz            | |
 | `asgardex`   | Asgardex             | DEPRECATED |
-| `bk`         | BitGet Wallet        | |
 | `bgw`        | BitGet Wallet        | |
+| `bk`         | BitGet Wallet        | |
 | `bp`         | BitPay               | |
 | `bqx`        | Ethos Wallet         | [Reference][2] |
 | `bwt`        | ?                    | |
@@ -29,8 +29,8 @@ to this chart, please submit a PR via GitHub.
 | `dcf`        | DecentralFi          | |
 | `ds`         | Defispot             | |
 | `dx`         | Asgardex             | |
-| `eld`        | El Dorito            | |
 | `ej`         | Edge Wallet          | |
+| `eld`        | El Dorito            | |
 | `g1`         | Gem Wallet           | |
 | `is`         | InstaSwap            | |
 | `iwt`        | ?                    | |
@@ -58,10 +58,10 @@ to this chart, please submit a PR via GitHub.
 | `te-ios`     | Trust Wallet iOS     | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
 | `tgt`        | THORWallet DEX       | |
 | `thorwallet` | THORWallet DEX       | |
-| `ts`         | THORSwap             | Announced 2023/03/08 by mogarchy; search TC Dev Discord |
 | `ti`         | Trust Wallet iOS     | |
 | `tl`         | THORSwap Ledger      | |
 | `tr`         | Trust Wallet iOS     | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
+| `ts`         | THORSwap             | Announced 2023/03/08 by mogarchy; search TC Dev Discord |
 | `v0`         | Vultisig Web         | |
 | `va`         | Vultisig Android     | |
 | `vi`         | Vultisig iOS         | |
