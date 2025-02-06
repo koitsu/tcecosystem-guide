@@ -3,6 +3,7 @@
 - [Introduction](index.md)
 - [General Q&A](general-qa.md)
 - [THORChain](thorchain/index.md)
+  - [Affiliate codes](thorchain/affiliate-codes.md)
   - [BEP2 and ERC20 RUNE](thorchain/bep2-and-erc20-rune.md)
   - [Check LP balances](thorchain/check-lp-balances.md)
   - [Delays](thorchain/delays.md)
