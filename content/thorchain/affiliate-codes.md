@@ -45,7 +45,7 @@ to this chart, please submit a PR via GitHub.
 | oky        | OneKey               | [Reference][1] |
 | pl         | Plexus               | |
 | rg         | Rango Exchange       | [Reference][2] |
-| ro         | ?                    | |
+| ro         | Rango Exchange       | [Reference][3] |
 | shapeshift | ShapeShift           | |
 | sk         | THORSwap SwapKit     | |
 | sp         | ?                    | |
@@ -72,3 +72,4 @@ to this chart, please submit a PR via GitHub.
 [THORNames]: https://docs.thorchain.org/how-it-works/thorchain-name-service
 [1]: https://discord.com/channels/838986635756044328/1277323122147721386
 [2]: https://discord.com/channels/838986635756044328/1160243572637966386
+[3]: https://discord.com/channels/838986635756044328/1336891243061313587/1336913446372900914
