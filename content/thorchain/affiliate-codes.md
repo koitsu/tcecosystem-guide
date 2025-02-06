@@ -48,7 +48,7 @@ to this chart, please submit a PR via GitHub.
 | `rg`         | Rango Exchange       | [Reference][3] |
 | `ro`         | Rango Exchange       | [Reference][4] |
 | `shapeshift` | ShapeShift           | |
-| `sk`         | THORSwap SwapKit     | |
+| `sk`         | SwapKit              | |
 | `sp`         | ?                    | |
 | `ss`         | ShapeShift           | |
 | `sy`         | Symbiosis            | |
