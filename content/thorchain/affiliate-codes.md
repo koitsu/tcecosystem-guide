@@ -4,6 +4,8 @@ Affiliate codes are actually just [THORNames], but figuring out who registered
 them is tricky.  THORChain and RuneScan/Viewblock devs sometimes know who uses
 what, but this information is not always made public.
 
+THORNames, therefore affiliate codes, are **case-insensitive**[1].
+
 Below is a list of codes obtained from various THORChain community resources,
 from Flipside queries to contributors to Medium articles.  If you can contribute
 to this chart, please submit a PR via GitHub.
@@ -14,12 +16,11 @@ to this chart, please submit a PR via GitHub.
 | ?            | OpenOcean            | |
 | ?            | RocketX              | |
 | ?            | Swing.xyz            | |
-| `Asgardex`   | Asgardex             | DEPRECATED |
-| `BK`         | BitGet Wallet        | |
-| `T`          | THORSwap             | |
+| `asgardex`   | Asgardex             | DEPRECATED |
+| `bk`         | BitGet Wallet        | |
 | `bgw`        | BitGet Wallet        | |
 | `bp`         | BitPay               | |
-| `bqx`        | Ethos Wallet         | [Reference][1] |
+| `bqx`        | Ethos Wallet         | [Reference][2] |
 | `bwt`        | ?                    | |
 | `cakewallet` | Cake Wallet          | |
 | `cb`         | CoinBot              | |
@@ -41,11 +42,11 @@ to this chart, please submit a PR via GitHub.
 | `ll`         | Ledger Live          | |
 | `matias`     | THORWallet           | |
 | `myd`        | ?                    | |
-| `okw`        | OKX Wallet           | [Reference][1] |
-| `oky`        | OneKey               | [Reference][1] |
+| `okw`        | OKX Wallet           | [Reference][2] |
+| `oky`        | OneKey               | [Reference][2] |
 | `pl`         | Plexus               | |
-| `rg`         | Rango Exchange       | [Reference][2] |
-| `ro`         | Rango Exchange       | [Reference][3] |
+| `rg`         | Rango Exchange       | [Reference][3] |
+| `ro`         | Rango Exchange       | [Reference][4] |
 | `shapeshift` | ShapeShift           | |
 | `sk`         | THORSwap SwapKit     | |
 | `sp`         | ?                    | |
@@ -70,6 +71,7 @@ to this chart, please submit a PR via GitHub.
 | `zengo`      | Zengo Wallet         | |
 
 [THORNames]: https://docs.thorchain.org/how-it-works/thorchain-name-service
-[1]: https://discord.com/channels/838986635756044328/1277323122147721386
-[2]: https://discord.com/channels/838986635756044328/1160243572637966386
-[3]: https://discord.com/channels/838986635756044328/1336891243061313587/1336913446372900914
+[1]: https://discord.com/channels/831398059484250142/831398279639859270/1270355067115147295
+[2]: https://discord.com/channels/838986635756044328/1277323122147721386
+[3]: https://discord.com/channels/838986635756044328/1160243572637966386
+[4]: https://discord.com/channels/838986635756044328/1336891243061313587/1336913446372900914
