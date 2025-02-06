@@ -4,7 +4,7 @@ Affiliate codes are actually just [THORNames], but figuring out who registered
 them is tricky.  THORChain and RuneScan/Viewblock devs sometimes know who uses
 what, but this information is not always made public.
 
-THORNames, therefore affiliate codes, are **case-insensitive**[1].
+THORNames, therefore affiliate codes, are [case-insensitive][1].
 
 Below is a list of codes obtained from various THORChain community resources,
 from Flipside queries to contributors to Medium articles.  If you can contribute
