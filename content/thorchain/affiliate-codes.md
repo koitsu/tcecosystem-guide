@@ -26,8 +26,6 @@ to this chart, please submit a PR via GitHub.
 | `cb`         | CoinBot              | |
 | `commission` | ?                    | |
 | `cs`         | CacaoSwap            | |
-| `ma`         | Moca                 | |
-| `moca`       | Moca                 | |
 | `dcf`        | DecentralFi          | |
 | `ds`         | Defispot             | |
 | `dx`         | Asgardex             | |
@@ -43,6 +41,8 @@ to this chart, please submit a PR via GitHub.
 | `lifi`       | Li.Fi                | |
 | `ll`         | Ledger Live          | |
 | `matias`     | THORWallet           | |
+| `ma`         | Moca                 | |
+| `moca`       | Moca                 | |
 | `myd`        | ?                    | |
 | `okw`        | OKX Wallet           | [Reference][2] |
 | `oky`        | OneKey               | [Reference][2] |
