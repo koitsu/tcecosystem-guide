@@ -68,7 +68,7 @@ to this chart, please submit a PR via GitHub.
 | `va`         | Vultisig Android     | |
 | `vi`         | Vultisig iOS         | |
 | `wr`         | THORWallet           | |
-| `xdf`        | XDEFI                | |
+| `xdf`        | CTRL                 | |
 | `zcx-com`    | Unizen               | |
 | `zengo`      | Zengo Wallet         | |
 
