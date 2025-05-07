@@ -48,6 +48,7 @@ to this chart, please submit a PR via GitHub.
 | `oky`        | OneKey               | [Reference][2] |
 | `pl`         | Plexus               | |
 | `rg`         | Rango Exchange       | [Reference][3] |
+| `rj`         | Rujira               | |
 | `ro`         | Rango Exchange       | [Reference][4] |
 | `shapeshift` | ShapeShift           | |
 | `sk`         | SwapKit              | |
