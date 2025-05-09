@@ -13,11 +13,8 @@
 | LP symm: withdraw RUNE + asset | RUNE ≥0.02          | THORChain                     |
 | LP symm: withdraw 100% asset   | RUNE ≥0.02          | THORChain                     |
 | LP symm: withdraw 100% RUNE    | RUNE ≥0.02          | THORChain                     |
-| Earn/Savers deposit            | Native chain        | Native chain                  |
-| Earn/Savers withdraw           | Native chain        | Native chain                  |
-| RUNEPool deposit               | RUNE ≥0.02          | THORChain                     |
-| RUNEPool withdraw              | RUNE ≥0.02          | THORChain                     |
 | Claiming TCY (Savers/Lending)  | Native chain        | Native chain<sup>‡</sup>       |
+| Claiming TCY (RUNEPool)        | RUNE ≥0.02          | THORChain                     |
 | Claiming TCY (Synths)          | RUNE ≥0.02          | THORChain                     |
 | Staking TCY                    | RUNE ≥0.02          | THORChain                     |
 | Unstaking TCY                  | RUNE ≥0.02          | THORChain                     |
