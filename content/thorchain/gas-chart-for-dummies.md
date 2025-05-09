@@ -17,6 +17,9 @@
 | Earn/Savers withdraw           | Native chain        | Native chain                  |
 | RUNEPool deposit               | RUNE ≥0.02          | THORChain                     |
 | RUNEPool withdraw              | RUNE ≥0.02          | THORChain                     |
+| Staking TCY                    | RUNE ≥0.02          | THORChain                     |
+| Unstaking TCY                  | RUNE ≥0.02          | THORChain                     |
+| TCY compounding options        | RUNE ≥0.02          | THORChain                     |
 | Staking $THOR into $vTHOR      | ETH (ERC20)         | Ethereum                      |
 | Unstaking $vTHOR into $THOR    | ETH (ERC20)         | Ethereum                      |
 
@@ -33,6 +36,7 @@
 | LTC             | Litecoin             | LTC            |
 | RUNE            | THORChain            | RUNE           |
 | Synths          | THORChain            | RUNE           |
+| TCY             | THORChain            | RUNE           |
 | THOR (ERC20)    | Ethereum             | ETH (ERC20)    |
 | USDC (AVAX)     | Avalanche C-Chain    | AVAX           |
 | USDC (BEP20)    | Binance Smart Chain  | BNB (BEP20)    |
