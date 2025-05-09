@@ -17,6 +17,8 @@
 | Earn/Savers withdraw           | Native chain        | Native chain                  |
 | RUNEPool deposit               | RUNE ≥0.02          | THORChain                     |
 | RUNEPool withdraw              | RUNE ≥0.02          | THORChain                     |
+| Claiming TCY (Savers/Lending)  | Native chain        | Native chain<sup>‡</sup>       |
+| Claiming TCY (Synths)          | RUNE ≥0.02          | THORChain                     |
 | Staking TCY                    | RUNE ≥0.02          | THORChain                     |
 | Unstaking TCY                  | RUNE ≥0.02          | THORChain                     |
 | TCY compounding options        | RUNE ≥0.02          | THORChain                     |
@@ -51,3 +53,8 @@ the destination address for asset Y.  (If you don't use this feature, then THORS
 automatically populates the recipient address for you, as long as you connect chains
 for both asset X and asset Y simultaneously.  This can pose a problem for hardware
 wallets like Ledger, hence the aforementioned feature.)
+
+<sup>‡</sup>: Transaction cost when claiming varies per native chain.  For example,
+it's known that for BTC, a minimum of 0.00012 BTC is required.  Other chains are
+more difficult to calculate.  Please refer to gas trackers for whatever chain your
+asset is on, or simply try claiming and see if you get an insufficient balance error.
