@@ -25,6 +25,19 @@
 | Staking $THOR into $vTHOR      | ETH (ERC20)         | Ethereum                      |
 | Unstaking $vTHOR into $THOR    | ETH (ERC20)         | Ethereum                      |
 
+> <sup>†</sup>: On THORSwap and possibly other front-ends, it is possible to swap from
+asset X to Y with only the native chain for X connected.  Simply enable the
+**Custom Recipient Address** feature in the Swap UI cog wheel, then manually enter
+the destination address for asset Y.  (If you don't use this feature, then THORSwap
+automatically populates the recipient address for you, as long as you connect chains
+for both asset X and asset Y simultaneously.  This can pose a problem for hardware
+wallets like Ledger, hence the aforementioned feature.)
+>
+> <sup>‡</sup>: Transaction cost when claiming varies per native chain.  For example,
+it's known that for BTC, a minimum of 0.00012 BTC is required.  Other chains are
+more difficult to calculate.  Please refer to gas trackers for whatever chain your
+asset is on, or simply try claiming and see if you get an insufficient balance error.
+
 "Native chain" means whatever chain an asset lives on.  Some examples:
 
 | Asset           | Chain                | Gas asset      |
@@ -45,16 +58,3 @@
 | USDT (ARB)      | Arbitrum             | ETH (ARB)      |
 | USDT (ERC20)    | Ethereum             | ETH (ERC20)    |
 | USK (Kujira)    | Kujira               | KUJI           |
-
-<sup>†</sup>: On THORSwap and possibly other front-ends, it is possible to swap from
-asset X to Y with only the native chain for X connected.  Simply enable the
-**Custom Recipient Address** feature in the Swap UI cog wheel, then manually enter
-the destination address for asset Y.  (If you don't use this feature, then THORSwap
-automatically populates the recipient address for you, as long as you connect chains
-for both asset X and asset Y simultaneously.  This can pose a problem for hardware
-wallets like Ledger, hence the aforementioned feature.)
-
-<sup>‡</sup>: Transaction cost when claiming varies per native chain.  For example,
-it's known that for BTC, a minimum of 0.00012 BTC is required.  Other chains are
-more difficult to calculate.  Please refer to gas trackers for whatever chain your
-asset is on, or simply try claiming and see if you get an insufficient balance error.
