@@ -3,28 +3,21 @@
 This section contains general Q&A items, primarily induced by repeated
 questions asked on the THORSwap Discord.
 
-## Do memoless Earn/Savers actions use streaming swaps?
-
-Yes, memoless Earn/Savers actions automatically use streaming swaps.
-Specifically, they use a default of 1 block interval per sub-swap,
-and auto adjust the number of sub-swaps to target the minimum 5bps 
-of slippage fees.
-
-## How can I track my LP or Earn/Savers earnings?
+## How can I track my LP earnings?
 
 - THORYield mobile app for Android (via Google Play Store) (recommended)
 - THORYield mobile app for iOS (via Apple Store) (recommended)
 - [THORYield app] (web-based)
 
-## I just opened my LP or Earn/Savers and it's not showing up in THORYield!
+## I just opened my LP and it's not showing up in THORYield!
 
-As of mid-November 2023, THORYield is a bit slow to notice new LPs and
-Savers/Earn accounts.  **Please give things 24-48 hours to settle.**
+As of mid-November 2023, THORYield is a bit slow to notice new LPs.
+**Please give things 24-48 hours to settle.**
 
-In the meantime, you can use the [THORChain Network Explorer] to verify your
-LP/Savers exists.  Simply visit the site and search for your wallet address
-(for symmetrical LPs, please use your THORChain address), then visit the
-LP/Savers tab and wait a few moments for the details to appear.
+In the meantime, you can use the [THORChain Network Explorer] to verify your LP
+exists.  Simply visit the site and search for your wallet address (for
+symmetrical LPs, please use your THORChain address), then visit the LP tab
+and wait a few moments for the details to appear.
 
 Alternately, you can use the [Midgard API] directly if you are technically
 inclined.  Use the `/v2/member` endpoint.
@@ -48,11 +41,11 @@ impermanent loss, please see the following THORChain University blog posts:
 
 ## Is the APR percentage on THORSwap/THORYield real (e.g. 500%)?
 
-Yes.  However, it's important you understand that LPs and Earn/Savers accounts
-are not like bank accounts with static or guaranteed interest rates; the APR
-varies constantly.  The numbers shown on THORSwap and THORYield refer to the
-gains over the past period (usually 7 days on THORSwap, and 180 days on
-THORYield).  The APRs are LUVI-based.
+Yes.  However, it's important you understand that LPs are not like bank
+accounts with static or guaranteed interest rates; the APR varies constantly.
+The numbers shown on THORSwap and THORYield refer to the gains over the past
+period (usually 7 days on THORSwap, and 180 days on THORYield).  The APRs are
+LUVI-based.
 
 Quoting SamYap of THORChain University:
 
@@ -74,16 +67,7 @@ Yes.  Quoting paperX of THORSwap:
 
 > Any "negative % APR" stems from THORChain's "synths effect" and LUVI based calculations. You can read all about the details here (See part 3): <https://medium.com/thorchain/introduction-to-luvi-and-midgard-apr-calculation-update-cf15e743276d>
 
-## What are the risks associated with Earn/Savers?
-
-- [THORChain Docs - Savers][4]
-- [THORChain Medium - Savers Vaults on THORChain][5]
-
 ## What are the risks associated with LPs?
-
-The risks are mostly the same as what's covered in the
-"What are the risks associated with Earn/Savers?"
-section, with some additions:
 
 - [THORChain University - Impermanent Loss][6]
   - Please note Impermanent Loss Protection was [officially sunset][7] in December 2023
@@ -99,7 +83,6 @@ you can see 30, 60, 90, and 180-day histories.
 [2]: https://thorchain-university.medium.com/distinguishing-between-price-exposure-and-impermanent-loss-in-asymmetrical-lping-f3fcd0e84887
 [3]: https://thorchain-university.medium.com/thorchain-lp-faq-7f60950aa277
 [4]: https://docs.thorchain.org/thorchain-finance/savings
-[5]: https://medium.com/thorchain/thorchain-savers-vaults-fc3f086b4057
 [6]: https://thorchain-university.medium.com/impermanent-loss-and-impermanent-loss-protection-a4a0f78d1701
 [7]: https://thorchain-university.medium.com/lpu-thorchain-updates-nov-2023-17af629c7763
 [8]: https://thorchain-university.medium.com/under-the-hood-liquidity-pool-apr-3e5e662e6675

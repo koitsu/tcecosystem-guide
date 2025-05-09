@@ -1,10 +1,10 @@
 # Delays
 
 A common scenario we get in the THORSwap Discord is a user a particular
-transaction (ex. swap, withdrawal, closing a loan, etc.) and seeing the
-THORSwap transaction tracker show things in a "pending" state for a very long
-time.  In other cases, the THORSwap transaction tracker doesn't show anything,
-or might even show a blank page.
+transaction (ex. swap, withdrawal, etc.) and seeing the THORSwap transaction
+tracker show things in a "pending" state for a very long time.  In other
+cases, the THORSwap transaction tracker doesn't show anything, or might
+even show a blank page.
 
 As of mid-November 2023, there are bugs/quirks with the THORSwap transaction
 tracker's "Details" feature, where parts of the UI don't get updated properly.
