@@ -5,6 +5,7 @@
 | Send asset                     | Native chain        | Native chain                  |
 | Swap asset X to asset Y        | Native chain for X  | Native chain for X and/or Y<sup>†</sup> |
 | Swap synth X to asset Y        | RUNE ≥0.02          | THORChain                     |
+| Swap TCY to asset X | RUNE ≥0.02          | THORChain                     |
 | LP asymm: deposit RUNE         | RUNE                | THORChain                     |
 | LP asymm: withdraw RUNE        | RUNE ≥0.02          | THORChain                     |
 | LP asymm: deposit asset        | Native chain        | Native chain                  |
