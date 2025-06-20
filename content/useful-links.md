@@ -28,7 +28,7 @@
   - [THORSwap SwapKit Docs](https://docs.thorswap.finance/swapkit-docs)
 - Blogs
   - [THORChain Medium](https://thorchain.medium.com/)
-  - [THORChain University Medium](https://thorchain-university.medium.com/)
+  - [THORChain Community Medium](https://thorchain-community.medium.com/)
   - [THORSwap Medium](https://thorswap.medium.com/)
 - Chats
   - [THORChain Developer Discord](https://discord.gg/tW64BraTnX) &mdash; **warning: dev chat only!**

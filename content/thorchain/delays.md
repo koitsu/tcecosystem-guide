@@ -18,7 +18,7 @@ more conditions that can delay a transaction.
 
 When THORChain receives an asset on any supported blockchain (ex. BTC, DOGE,
 etc.), it requires a certain number of
-[inbound confirmations](https://thorchain-university.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#f667)
+[inbound confirmations](https://thorchain-community.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#f667)
 before continuing to process the transaction.
 
 For more details about this subject, refer to
@@ -31,7 +31,7 @@ THORChain makes use of a
 that can delay transactions **for up to 1 hour**.
 
 For more information on the security mechanism, refer to this
-[THORChain University article](https://thorchain-university.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#9534)
+[THORChain Community article](https://thorchain-community.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#9534)
 which covers this and additional scenarios.
 
 In mid-January 2024, THORChain implemented

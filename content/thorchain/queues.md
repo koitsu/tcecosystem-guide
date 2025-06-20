@@ -59,4 +59,4 @@ The Outbound Queue data comes directly from the `/thorchain/queue/outbound`
 [4]: https://gitlab.com/thorchain/thornode/-/tags/v1.131.0
 [9R THORChain Tracker]: https://track.ninerealms.com/
 [/pending endpoint]: https://track.ninerealms.com/pending
-[Asgard vault]: https://thorchain-university.medium.com/under-the-hood-asgard-vaults-tss-and-node-churns-4767f3a5624b
+[Asgard vault]: https://thorchain-community.medium.com/under-the-hood-asgard-vaults-tss-and-node-churns-4767f3a5624b

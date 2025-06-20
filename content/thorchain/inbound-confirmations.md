@@ -23,5 +23,5 @@ Reviewing inbound confirmations is somewhat complicated and technical:
    - `remaining_confirmation_seconds` &mdash; rough ETA of when the transaction will complete.  This number usually decreases, but *can* increase!
 1. Once the entire swap transaction is completed, section `swap_finalised` should have `completed: true`
 
-[1]: https://thorchain-university.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#f667
+[1]: https://thorchain-community.medium.com/under-the-hood-thorchain-transaction-delays-250d00ed57b7#f667
 [2]: https://thorswap.medium.com/cross-chain-made-easy-thorswap-integrates-chainflip-liquidity-network-3894d24db1b8

@@ -29,7 +29,7 @@ it.  Uniswap is one such DEX.
 
 Here are some links covering the history and evidence of the deprecation:
 
-- Why BEP2 and ERC20 RUNE were deprecated: [THORChain University - Upgrading to Native RUNE][3]
+- Why BEP2 and ERC20 RUNE were deprecated: [THORChain - Upgrading to Native RUNE][3]
 - Upgrade timeline: <https://t.me/thorchain_org/610874>
 - Example of THORChain Twitter/X announcement: <https://t.me/thorchain_org/610902>
 - Example of THORChain Telegram announcement: <https://t.me/thorchain_org/476777>
