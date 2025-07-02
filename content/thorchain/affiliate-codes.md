@@ -36,6 +36,7 @@ to this chart, please submit a PR via GitHub.
 | `iwt`        | ?                    | |
 | `kf`         | Babylon Swap         | Previously known as Kensho Finance |
 | `kit`        | ?                    | Possibly SwapKit? |
+| `kns`        | Keystone             | |
 | `lends`      | Lends                | |
 | `lg`         | ?                    | |
 | `lifi`       | Li.Fi                | |
