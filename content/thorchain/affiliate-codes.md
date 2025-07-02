@@ -56,6 +56,7 @@ to this chart, please submit a PR via GitHub.
 | `ss`         | ShapeShift           | |
 | `sy`         | Symbiosis            | |
 | `t`          | THORSwap             | |
+| `t1`         | Trust Wallet         | |
 | `td`         | Trust Wallet Android | |
 | `te`         | Trust Wallet Android | DEPRECATED: replaced by `td`; confirmed by Aperçu on 2023/12/29 |
 | `te-ios`     | Trust Wallet iOS     | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
