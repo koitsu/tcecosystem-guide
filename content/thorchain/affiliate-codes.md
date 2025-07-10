@@ -16,6 +16,7 @@ to this chart, please submit a PR via GitHub.
 | ?            | OpenOcean            | |
 | ?            | RocketX              | |
 | ?            | Swing.xyz            | |
+| `-_`         | SwapKit              | |
 | `asgardex`   | Asgardex             | DEPRECATED |
 | `bgw`        | BitGet Wallet        | |
 | `bk`         | BitGet Wallet        | |
