@@ -46,6 +46,7 @@ to this chart, please submit a PR via GitHub.
 | `ma`         | Moca                 | |
 | `moca`       | Moca                 | |
 | `myd`        | ?                    | |
+| `ns`         | NativeSwap           | |
 | `okw`        | OKX Wallet           | [Reference][2] |
 | `oky`        | OneKey               | [Reference][2] |
 | `pl`         | Plexus               | |
