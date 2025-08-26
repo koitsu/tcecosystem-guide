@@ -17,6 +17,7 @@ to this chart, please submit a PR via GitHub.
 | ?            | RocketX              | |
 | ?            | Swing.xyz            | |
 | `-_`         | SwapKit              | |
+| `ahi`        | CTRL                 | |
 | `asgardex`   | Asgardex             | DEPRECATED |
 | `bgw`        | BitGet Wallet        | |
 | `bk`         | BitGet Wallet        | |
@@ -50,6 +51,7 @@ to this chart, please submit a PR via GitHub.
 | `okw`        | OKX Wallet           | [Reference][2] |
 | `oky`        | OneKey               | [Reference][2] |
 | `pl`         | Plexus               | |
+| `plm`        | Polemos              | |
 | `rg`         | Rango Exchange       | [Reference][3] |
 | `rj`         | Rujira               | |
 | `ro`         | Rango Exchange       | [Reference][4] |
@@ -60,13 +62,13 @@ to this chart, please submit a PR via GitHub.
 | `sy`         | Symbiosis            | |
 | `t`          | THORSwap             | |
 | `t1`         | Trust Wallet         | |
-| `td`         | Trust Wallet Android | |
+| `td`         | Trust Wallet Android | DEPRECATED: replaced by `t1`; |
 | `te`         | Trust Wallet Android | DEPRECATED: replaced by `td`; confirmed by Aperçu on 2023/12/29 |
 | `te-ios`     | Trust Wallet iOS     | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
 | `tgt`        | THORWallet DEX       | |
 | `thorwallet` | THORWallet DEX       | |
-| `ti`         | Trust Wallet iOS     | |
-| `tl`         | THORSwap Ledger      | |
+| `ti`         | Trust Wallet iOS     | DEPRECATED: replaced by `t1`; |
+| `tl`         | THORSwap Ledger      | Only used for tests |
 | `tr`         | Trust Wallet iOS     | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
 | `ts`         | THORSwap             | Announced 2023/03/08 by mogarchy; search TC Dev Discord |
 | `v0`         | Vultisig Web         | |
