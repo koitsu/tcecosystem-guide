@@ -62,12 +62,12 @@ to this chart, please submit a PR via GitHub.
 | `sy`         | Symbiosis            | |
 | `t`          | THORSwap             | |
 | `t1`         | Trust Wallet         | |
-| `td`         | Trust Wallet Android | DEPRECATED: replaced by `t1`; |
+| `td`         | Trust Wallet Android | DEPRECATED: replaced by `t1` |
 | `te`         | Trust Wallet Android | DEPRECATED: replaced by `td`; confirmed by Aperçu on 2023/12/29 |
 | `te-ios`     | Trust Wallet iOS     | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
 | `tgt`        | THORWallet DEX       | |
 | `thorwallet` | THORWallet DEX       | |
-| `ti`         | Trust Wallet iOS     | DEPRECATED: replaced by `t1`; |
+| `ti`         | Trust Wallet iOS     | DEPRECATED: replaced by `t1` |
 | `tl`         | THORSwap Ledger      | Only used for tests |
 | `tr`         | Trust Wallet iOS     | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
 | `ts`         | THORSwap             | Announced 2023/03/08 by mogarchy; search TC Dev Discord |
