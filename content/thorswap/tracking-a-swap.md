@@ -28,10 +28,10 @@ especially in cases where THORChain RUNE is involved.
 
 ## Chainflip procedure
 
-1. Visit the [Chainflip swap tracker]
-1. Scroll down the page until you find the **Search by swap ID or destination address** search box
-1. Enter your **destination wallet address**.  For example, if you swapped BTC into ETH, you would enter your Ethereum wallet address
-1. If your swap was done through Chainflip, you should be shown details of your swap, as well as a progress indicator
+1. Visit the [Chainflip explorer]
+1. In the search box, enter your **destination wallet address** and wait to see if any swaps are shown
+   - For example, if you swapped BTC into ETH, you would enter your Ethereum wallet address
+1. If your swap was done through Chainflip, you should be shown a list of swaps.  The most recent should be at the top.  Click the swap to see details, including a progress indicator
 1. If your swap is not found, try the next protocol/path below
 
 ## THORChain procedure
@@ -49,7 +49,7 @@ especially in cases where THORChain RUNE is involved.
 [1]: https://thorswap.medium.com/cross-chain-made-easy-thorswap-integrates-chainflip-liquidity-network-3894d24db1b8
 [2]: https://thorswap.medium.com/seamless-cross-chain-trading-thorswap-welcomes-maya-protocol-ba89b918b879
 [9R THORChain Tracker]: https://track.ninerealms.com/
-[Chainflip swap tracker]: https://scan.chainflip.io/swaps
+[Chainflip explorer]: https://scan.chainflip.io/
 [MayaScan]: https://www.mayascan.org/
 [RuneScan]: https://runescan.io/
 [Xscanner]: https://www.xscanner.org/
