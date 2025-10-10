@@ -12,6 +12,7 @@
   - [Gas chart for dummies](thorchain/gas-chart-for-dummies.md)
   - [Inbound confirmations](thorchain/inbound-confirmations.md)
   - [Queues](thorchain/queues.md)
+  - [Troubleshooting](thorchain/troubleshooting.md)
 - [THORSwap](thorswap/index.md)
   - [Tracking a swap](thorswap/tracking-a-swap.md)
   - [Tracking a withdrawal](thorswap/tracking-a-withdrawal.md)
