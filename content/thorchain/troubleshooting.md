@@ -10,14 +10,15 @@ which are behind Cloudflare, subject to rate-limiting, and have other
 stipulations.
 <p></p>
 It is recommended (and sometimes required) that requests sent to these
-interfaces include an `X-Client-ID` header that identifies who you are.
-If you have joined the THORChain Dev Discord, please set this header
-to a value of <code>discord:YOURUSERNAME/YOURIDNUMBER</code> so that
-the requests can be identified.
+interfaces include an <code>X-Client-ID</code> header that identifies
+who you are.  If you have joined the THORChain Dev Discord, please set
+this header to a value of <code>discord:YOURUSERNAME/YOURIDNUMBER</code>
+so that the requests can be identified.
 <p></p>
-Users who are wishing to consume large amounts of data **SHOULD NOT**
-use these endpoints, and should instead run their own Midgard and/or
-THORNode infrastructure which can be queried (often via localhost).
+Users who are wishing to consume large amounts of data
+<strong>SHOULD NOT</strong> use these endpoints, and should instead run
+their own Midgard and/or THORNode infrastructure which can be queried
+(often via localhost).
 </div>
 
 ## Midgard
@@ -29,9 +30,8 @@ THORNode infrastructure which can be queried (often via localhost).
 ### THORNode layer
 
 - Swagger API docs: <https://thornode.ninerealms.com/thorchain/doc>
-- Archive endpoints:
-  - <https://thornode-archive.ninerealms.com>
-    - This endpoint will automatically use the correct versioned endpoint based on provided block height HTTP query param
+- Archive endpoint: <https://thornode-archive.ninerealms.com>
+  - This endpoint will automatically use the correct versioned endpoint based on provided block height HTTP query param
 - Versioned endpoints:
   - Blocks 17562001 to present: <https://thornode-v2.ninerealms.com>
   - Blocks 4786560 to 17562000: <https://thornode-v1.ninerealms.com>
