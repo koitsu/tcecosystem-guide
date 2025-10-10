@@ -12,8 +12,8 @@ stipulations.
 It is recommended (and sometimes required) that requests sent to these
 interfaces include an `X-Client-ID` header that identifies who you are.
 If you have joined the THORChain Dev Discord, please set this header
-to a value of `discord:YOURUSERNAME/YOURIDNUMBER` so that the requests
-can be identified.
+to a value of <code>discord:YOURUSERNAME/YOURIDNUMBER</code> so that
+the requests can be identified.
 <p></p>
 Users who are wishing to consume large amounts of data **SHOULD NOT**
 use these endpoints, and should instead run their own Midgard and/or
