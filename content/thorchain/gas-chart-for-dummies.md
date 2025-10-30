@@ -41,6 +41,7 @@ wallets like Ledger, hence the aforementioned feature.)
 | BCH             | Bitcoin Cash         | BCH            |
 | BTC             | Bitcoin              | BTC            |
 | CACAO           | Maya Protocol        | CACAO          |
+| cbBTC           | Base                 | ETH (BASE)     |
 | DOGE            | Dogecoin             | DOGE           |
 | LTC             | Litecoin             | LTC            |
 | RUNE            | THORChain            | RUNE           |
