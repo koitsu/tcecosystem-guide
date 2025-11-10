@@ -17,6 +17,7 @@ to this chart, please submit a PR via GitHub.
 | ?            | RocketX              | |
 | ?            | Swing.xyz            | |
 | `-_`         | SwapKit              | |
+| `-t`         | THORSwap (Rune Edition) | |
 | `ahi`        | CTRL                 | |
 | `asgardex`   | Asgardex             | DEPRECATED |
 | `bgw`        | BitGet Wallet        | |
