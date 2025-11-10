@@ -60,6 +60,7 @@ to this chart, please submit a PR via GitHub.
 | `sk`         | SwapKit                 | |
 | `sp`         | ?                       | |
 | `ss`         | ShapeShift              | |
+| `sto`        | swap.thorchain.org      | [Reference][5] |
 | `sy`         | Symbiosis               | |
 | `t`          | THORSwap                | |
 | `t1`         | Trust Wallet            | |
@@ -85,3 +86,4 @@ to this chart, please submit a PR via GitHub.
 [2]: https://discord.com/channels/838986635756044328/1277323122147721386
 [3]: https://discord.com/channels/838986635756044328/1160243572637966386
 [4]: https://discord.com/channels/838986635756044328/1336891243061313587/1336913446372900914
+[5]: https://discord.com/channels/838986635756044328/838986636665815072/1434770133158723695
