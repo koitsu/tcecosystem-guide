@@ -2,7 +2,7 @@
 
 There are two options for swapping using a Ledger:
 
-## Use Ledger Live
+## Use Ledger Wallet
 
 Follow Ledger's official [How to swap crypto using THORSwap][1] procedure.
 
@@ -19,7 +19,7 @@ asset X to Y with only chain X atttached **as long as you know the wallet
 address of Y.**  This method uses the **Custom Recipient Address** feature of
 THORSwap, and in the case of Ledger, can save users a lot of pain.
 
-1. Ensure Ledger Live is not running or in the system tray; if so, exit it
+1. Ensure Ledger Wallet is not running or in the system tray; if so, exit it
 1. Find the wallet address of asset Y (i.e. destination asset); save it/copy it somewhere
    - **Note: it's important you get the correct address for the correct chain.  It is very possible to send funds to a wrong address/wrong chain and lose the funds.  Please double-check your wallet address!**
 1. Attach your Ledger to your USB port (if not already)

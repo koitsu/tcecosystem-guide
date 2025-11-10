@@ -2,7 +2,7 @@
 
 -- WIP --
 
-1. Ensure Ledger Live is not running or in the system tray; if so, exit it
+1. Ensure Ledger Wallet is not running or in the system tray; if so, exit it
 2. Attach your Ledger to your USB port (if not already)
 3. On your Ledger, run the relevant application for the chain asset you wish to deposit.
 4. Launch your web browser (Chrome and Brave confirmed working)

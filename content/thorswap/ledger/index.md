@@ -23,26 +23,26 @@ buttons to change it to Enabled.
 ## Incorrect asset quantity
 
 Ledger, especially with UTXO-based chains (ex. BTC, DOGE, etc.), tends to
-"spread" funds across multiple indexes<sup>†</sup> on your Ledger.  Ledger Live
+"spread" funds across multiple indexes<sup>†</sup> on your Ledger.  Ledger Wallet
 is able to aggregate all the assets/quantities into one lump sum.  This is
 indirectly described in the official Ledger document titled
 [Understanding Crypto Addresses and Derivation Paths][2].
 However, THORSwap cannot do this &mdash; it can only see one index at a time
 (default index 0).  Here's an example:
 
-- Pretend your Ledger Live says you have 1.2 BTC total
+- Pretend your Ledger Wallet says you have 1.2 BTC total
 - Index 0 = address bc1abcd (holds 1 BTC)
 - Index 16 = address bc12345 (holds 0.2 BTC)
 - THORSwap says you only have 1 BTC.  The 0.2 BTC that's "missing" is because it's on index 16, not 0
 
 The workaround:
 
-1. Ensure Ledger Live is not running or in the system tray; if so, exit it
+1. Ensure Ledger Wallet is not running or in the system tray; if so, exit it
 1. Connect your Ledger to THORSwap on the chain of your choice
 1. Click the **Wallet** button in THORSwap and examine what your wallet address is &mdash; this is the address of index 0.  Save/copy this address
 1. Disconnect your Ledger from THORSwap
-1. Launch Ledger Live
-1. In Ledger Live, send the quantity of the asset to the address you previously copied in an earlier step
+1. Launch Ledger Wallet
+1. In Ledger Wallet, send the quantity of the asset to the address you previously copied in an earlier step
    - This is a super basic transaction that will cost you gas
    - What this does is effectively put the funds you send on index 0, since this is all THORSwap can see
 1. Wait a little while for network confirmations on your transaction.  How long to wait depends on the chain's validators; most are pretty fast, but BTC in particular is slow (can take 30-45 minutes at times)

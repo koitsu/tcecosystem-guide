@@ -42,7 +42,7 @@ to this chart, please submit a PR via GitHub.
 | `lends`      | Lends                | |
 | `lg`         | ?                    | |
 | `lifi`       | Li.Fi                | |
-| `ll`         | Ledger Live          | |
+| `ll`         | Ledger Wallet        | |
 | `matias`     | THORWallet           | |
 | `ma`         | Moca                 | |
 | `moca`       | Moca                 | |
