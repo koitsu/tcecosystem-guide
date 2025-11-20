@@ -6,6 +6,7 @@ beginning early 2024, THORSwap began integrating other providers
 
 - March 2024: [Chainflip][1]
 - April 2024: [Maya Protocol][2]
+- October 2025: [NEAR Intents][3]
 
 <div class="warning">
 As of August 2024, Chainflip and Maya-based swaps do not show up in the
@@ -13,11 +14,31 @@ THORSwap Transaction History UI in the upper-right corner.  Instead, users will
 be shown a blank page or a page with a never-ending spinner.
 </div>
 
+<div class="warning">
+As of November 2025, NEAR Intents transactions will not show valid transaction hashes
+in the THORSwap Transaction History UI in the upper-right corner.  Instead, users will
+be shown transaction IDs that contain all zeros.  This is a known issue devs are working
+on fixing.
+</div>
+
 Below are per-provider instructions for how you can find your swap.
 
 If you aren't sure which provider/path you used for your swap, you will
 need to try each of them until you find it.  This can be a little confusing,
 especially in cases where THORChain RUNE is involved.
+
+## NEAR Intents procedure
+
+1. In THORSwap, click the Transaction History button in the upper right, then choose View Details on your transaction
+1. You will be shown multiple "stages" of the swap.  Click View Tx on the **furthest left "Transfer" entry**
+   - For example, if you did a BTC to USDC (Solana) swap, the first stage would be a Transfer of BTC
+1. In the block explorer you're taken to, copy the address where your funds were **sent to**
+   - This destination address is handled by NEAR Intents
+   - For UTXO chains, this would be the Output address, not the Change address
+1. Visit the [NEAR Intents explorer]
+1. In the search box, enter the address obtained in the previous step
+1. If you swap was done through NEAR Intents, you should be shown details of your swap
+1. If your swap is not found, try the next protocol/path below
 
 ## Maya Protocol procedure
 
@@ -48,8 +69,10 @@ especially in cases where THORChain RUNE is involved.
 
 [1]: https://thorswap.medium.com/cross-chain-made-easy-thorswap-integrates-chainflip-liquidity-network-3894d24db1b8
 [2]: https://thorswap.medium.com/seamless-cross-chain-trading-thorswap-welcomes-maya-protocol-ba89b918b879
+[3]: https://thorswap.medium.com/introducing-near-intents-%EF%B8%8F-thorswaps-new-revolutionary-cross-chain-provider-2a18bbf31dfe
 [9R THORChain Tracker]: https://track.ninerealms.com/
 [Chainflip explorer]: https://scan.chainflip.io/
 [MayaScan]: https://www.mayascan.org/
+[NEAR Intents explorer]: https://explorer.near-intents.org/
 [RuneScan]: https://runescan.io/
 [Xscanner]: https://www.xscanner.org/
