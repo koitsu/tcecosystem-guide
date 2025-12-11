@@ -10,7 +10,6 @@ site-url = "/"
 git-repository-url = "https://github.com/koitsu/tcecosystem-guide/tree/master"
 edit-url-template = "https://github.com/koitsu/tcecosystem-guide/edit/master/{path}"
 no-section-label = true
-smart-punctuation = false
 default-theme = "light"
 preferred-dark-theme = "ayu"
 additional-css = ["custom.css"]
