@@ -1,7 +1,6 @@
 [book]
 authors = ["koitsu"]
 language = "en"
-multilingual = false
 title = "THORChain Ecosystem Community Guide"
 description = "A website dedicated to the THORChain ecosystem, intended for use by users"
 src = "content"
