@@ -7,6 +7,7 @@ beginning early 2024, THORSwap began integrating other providers
 - March 2024: [Chainflip][1]
 - April 2024: [Maya Protocol][2]
 - October 2025: [NEAR Intents][3]
+- December 2025: [Harbor][4]
 
 <div class="warning">
 As of August 2024, Chainflip and Maya-based swaps do not show up in the
@@ -26,6 +27,16 @@ Below are per-provider instructions for how you can find your swap.
 If you aren't sure which provider/path you used for your swap, you will
 need to try each of them until you find it.  This can be a little confusing,
 especially in cases where THORChain RUNE is involved.
+
+## Harbor procedure
+
+1. In THORSwap, click the Transaction History button in the upper right, then choose View Details on your transaction
+1. Copy the **Transaction ID** at the bottom of the details window
+1. Visit the [Harbor explorer]
+1. In the search box, paste the transaction ID obtained in the previous step
+   - If the transaction ID starts with `0x`, remove those characters (e.g. `0x1234` becomes `1234`)
+1. If you swap was done through Harbor, you should be shown details of your swap
+1. If your swap is not found, try the next protocol/path below
 
 ## NEAR Intents procedure
 
@@ -70,8 +81,10 @@ especially in cases where THORChain RUNE is involved.
 [1]: https://thorswap.medium.com/cross-chain-made-easy-thorswap-integrates-chainflip-liquidity-network-3894d24db1b8
 [2]: https://thorswap.medium.com/seamless-cross-chain-trading-thorswap-welcomes-maya-protocol-ba89b918b879
 [3]: https://thorswap.medium.com/introducing-near-intents-%EF%B8%8F-thorswaps-new-revolutionary-cross-chain-provider-2a18bbf31dfe
+[4]: https://x.com/THORSwap/status/1998958126427746749
 [9R THORChain Tracker]: https://track.ninerealms.com/
 [Chainflip explorer]: https://scan.chainflip.io/
+[Harbor explorer]: https://explorer.harbor.xyz/
 [MayaScan]: https://www.mayascan.org/
 [NEAR Intents explorer]: https://explorer.near-intents.org/
 [RuneScan]: https://runescan.io/
