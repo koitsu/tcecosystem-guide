@@ -1,8 +1,7 @@
 # Tracking a swap
 
-Historically, swaps were exclusively done through THORChain.  However,
-beginning early 2024, THORSwap began integrating other providers
-(a.k.a. "paths" in the THORSwap UI):
+Historically, swaps were exclusively done through THORChain.  However, beginning early 2024, THORSwap
+began integrating other providers (a.k.a. "paths" in the THORSwap UI):
 
 - March 2024: [Chainflip][1]
 - April 2024: [Maya Protocol][2]
@@ -10,23 +9,20 @@ beginning early 2024, THORSwap began integrating other providers
 - December 2025: [Harbor][4]
 
 <div class="warning">
-As of August 2024, Chainflip and Maya-based swaps do not show up in the
-THORSwap Transaction History UI in the upper-right corner.  Instead, users will
-be shown a blank page or a page with a never-ending spinner.
+As of August 2024, Chainflip and Maya-based swaps do not show up in the THORSwap Transaction History UI
+in the upper-right corner.  Instead, users will be shown a blank page or a page with a never-ending spinner.
 </div>
 
 <div class="warning">
-As of November 2025, NEAR Intents transactions will not show valid transaction hashes
-in the THORSwap Transaction History UI in the upper-right corner.  Instead, users will
-be shown transaction IDs that contain all zeros.  This is a known issue devs are working
-on fixing.
+As of November 2025, NEAR Intents transactions will not show valid transaction hashes in the THORSwap
+Transaction History UI in the upper-right corner.  Instead, users will be shown transaction IDs that
+contain all zeros.  This is a known issue devs are working on fixing.
 </div>
 
 Below are per-provider instructions for how you can find your swap.
 
-If you aren't sure which provider/path you used for your swap, you will
-need to try each of them until you find it.  This can be a little confusing,
-especially in cases where THORChain RUNE is involved.
+If you aren't sure which provider/path you used for your swap, you will need to try each of them until you
+find it.  This can be a little confusing, especially in cases where THORChain RUNE is involved.
 
 ## Harbor procedure
 
