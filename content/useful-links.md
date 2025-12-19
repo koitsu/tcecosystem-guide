@@ -5,6 +5,7 @@
 - [9R THORChain Tracker](https://track.ninerealms.com/)
   - [/pending endpoint](https://track.ninerealms.com/pending)
 - [RUNE Tools](https://rune.tools/)
+- [RUNEBond](https://runebond.com/)
 - [RuneScan](https://runescan.io/)
 - [THORChain](https://thorchain.org/)
 - [THORChain Network Explorer](https://thorchain.net/dashboard)
@@ -12,8 +13,6 @@
 - [THORSwap](https://www.thorswap.finance/)
 - [THORSwap Community Forum](https://forum.thorswap.finance/)
 - [THORSwap Feedback](https://thorswap.canny.io/)
-- [THORYield](https://thoryield.com/)
-- [THORYield Transaction Tracker](https://app.thoryield.com/tx_tracker)
 - THORChain node information
   - [Mimir voting results](https://ops.ninerealms.com/mimir)
   - [THORChain Network Nodes](https://thorchain.network/nodes/)
@@ -36,6 +35,6 @@
   - [THORSwap Discord](https://discord.gg/ST2hfVB5)
   - [THORSwap Telegram](https://t.me/thorswap_ann)
 - Social media
-  - [9R X](https://x.com/ninerealms_cap)
+  - [Nine Realms X](https://x.com/ninerealms_cap)
   - [THORChain X](https://x.com/THORChain)
   - [THORSwap X](https://x.com/thorswap)
