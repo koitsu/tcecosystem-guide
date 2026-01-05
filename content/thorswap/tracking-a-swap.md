@@ -42,9 +42,9 @@ find it.  This can be a little confusing, especially in cases where THORChain RU
 1. In the block explorer you're taken to, copy the address where your funds were **sent to**
    - This destination address is handled by NEAR Intents
    - For UTXO chains, this would be the Output address, not the Change address
-1. Visit the [NEAR Intents explorer]
-1. In the search box, enter the address obtained in the previous step
-1. If you swap was done through NEAR Intents, you should be shown details of your swap
+1. Enter `https://explorer.near-intents.org/transactions/` in your browser, appending the destination address from the previous step to the URL
+   - For example, if the destination address in the previous step was `abc123456`, you would visit `https://explorer.near-intents.org/transactions/abc123456`
+1. If your swap was done through NEAR Intents, you should be shown details of your swap
 1. If your swap is not found, try the next protocol/path below
 
 ## Maya Protocol procedure
@@ -82,6 +82,5 @@ find it.  This can be a little confusing, especially in cases where THORChain RU
 [Chainflip explorer]: https://scan.chainflip.io/
 [Harbor explorer]: https://explorer.harbor.xyz/
 [MayaScan]: https://www.mayascan.org/
-[NEAR Intents explorer]: https://explorer.near-intents.org/
 [RuneScan]: https://runescan.io/
 [Xscanner]: https://www.xscanner.org/
