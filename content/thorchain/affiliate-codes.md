@@ -27,6 +27,7 @@ to this chart, please submit a PR via GitHub.
 | `burrito`    | Burrito Wallet          | |
 | `bwt`        | ?                       | |
 | `byb`        | BiorBank                | |
+| `c1`         | Clypto                  | |
 | `c98`        | Coin98                  | |
 | `cakewallet` | Cake Wallet             | |
 | `cb`         | CoinBot                 | |
@@ -34,11 +35,13 @@ to this chart, please submit a PR via GitHub.
 | `commission` | ?                       | |
 | `cs`         | CacaoSwap               | |
 | `dcf`        | DecentralFi             | |
+| `dh`         | Depouch                 | |
 | `dp`         | Astrolescent            | |
 | `ds`         | Defispot                | |
 | `dx`         | Asgardex                | |
 | `ej`         | Edge Wallet             | |
 | `eld`        | El Dorito               | |
+| `fs`         | FortunaSwap             | |
 | `g1`         | Gem Wallet              | |
 | `hvl`        | SafePal                 | |
 | `is`         | InstaSwap               | |
@@ -47,6 +50,7 @@ to this chart, please submit a PR via GitHub.
 | `kit`        | ?                       | Possibly SwapKit? |
 | `kns`        | Keystone                | |
 | `lends`      | Lends                   | |
+| `leo`        | LeoDex                  | |
 | `lg`         | ?                       | |
 | `lifi`       | Li.Fi                   | |
 | `ll`         | Ledger Wallet           | |
@@ -78,6 +82,7 @@ to this chart, please submit a PR via GitHub.
 | `thorwallet` | THORWallet DEX          | |
 | `ti`         | Trust Wallet iOS        | DEPRECATED: replaced by `t1` |
 | `tl`         | THORSwap Ledger         | Only used for tests |
+| `tps`        | Token Pocket            | |
 | `tr`         | Trust Wallet iOS        | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
 | `ts`         | THORSwap                | Announced 2023/03/08 by mogarchy; search TC Dev Discord |
 | `v0`         | Vultisig Web            | |
