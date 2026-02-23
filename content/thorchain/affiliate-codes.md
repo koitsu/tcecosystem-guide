@@ -34,8 +34,8 @@ to this chart, please submit a PR via GitHub.
 | `commission` | ?                       | |
 | `cs`         | CacaoSwap               | |
 | `dcf`        | DecentralFi             | |
-| `ds`         | Defispot                | |
 | `dp`         | Astrolescent            | |
+| `ds`         | Defispot                | |
 | `dx`         | Asgardex                | |
 | `ej`         | Edge Wallet             | |
 | `eld`        | El Dorito               | |
@@ -50,8 +50,8 @@ to this chart, please submit a PR via GitHub.
 | `lg`         | ?                       | |
 | `lifi`       | Li.Fi                   | |
 | `ll`         | Ledger Wallet           | |
-| `matias`     | THORWallet              | |
 | `ma`         | Moca                    | |
+| `matias`     | THORWallet              | |
 | `mis`        | CoinEx Wallet           | |
 | `moca`       | Moca                    | |
 | `myd`        | ?                       | |
@@ -69,11 +69,11 @@ to this chart, please submit a PR via GitHub.
 | `ss`         | ShapeShift              | |
 | `sto`        | swap.thorchain.org      | [Reference][5] |
 | `sy`         | Symbiosis               | |
-| `t`          | THORSwap                | |
 | `t1`         | Trust Wallet            | |
+| `t`          | THORSwap                | |
 | `td`         | Trust Wallet Android    | DEPRECATED: replaced by `t1` |
-| `te`         | Trust Wallet Android    | DEPRECATED: replaced by `td`; confirmed by Aperçu on 2023/12/29 |
 | `te-ios`     | Trust Wallet iOS        | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
+| `te`         | Trust Wallet Android    | DEPRECATED: replaced by `td`; confirmed by Aperçu on 2023/12/29 |
 | `tgt`        | THORWallet DEX          | |
 | `thorwallet` | THORWallet DEX          | |
 | `ti`         | Trust Wallet iOS        | DEPRECATED: replaced by `t1` |
