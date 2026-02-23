@@ -24,17 +24,23 @@ to this chart, please submit a PR via GitHub.
 | `bk`         | BitGet Wallet           | |
 | `bp`         | BitPay                  | |
 | `bqx`        | Ethos Wallet            | [Reference][2] |
+| `burrito`    | Burrito Wallet          | |
 | `bwt`        | ?                       | |
+| `byb`        | BiorBank                | |
+| `c98`        | Coin98                  | |
 | `cakewallet` | Cake Wallet             | |
 | `cb`         | CoinBot                 | |
+| `cbx`        | CoolWallet              | |
 | `commission` | ?                       | |
 | `cs`         | CacaoSwap               | |
 | `dcf`        | DecentralFi             | |
 | `ds`         | Defispot                | |
+| `dp`         | Astrolescent            | |
 | `dx`         | Asgardex                | |
 | `ej`         | Edge Wallet             | |
 | `eld`        | El Dorito               | |
 | `g1`         | Gem Wallet              | |
+| `hvl`        | SafePal                 | |
 | `is`         | InstaSwap               | |
 | `iwt`        | ?                       | |
 | `kf`         | Babylon Swap            | Previously known as Kensho Finance |
@@ -46,6 +52,7 @@ to this chart, please submit a PR via GitHub.
 | `ll`         | Ledger Wallet           | |
 | `matias`     | THORWallet              | |
 | `ma`         | Moca                    | |
+| `mis`        | CoinEx Wallet           | |
 | `moca`       | Moca                    | |
 | `myd`        | ?                       | |
 | `ns`         | NativeSwap              | |
@@ -78,8 +85,10 @@ to this chart, please submit a PR via GitHub.
 | `vi`         | Vultisig iOS            | |
 | `wr`         | THORWallet              | |
 | `xdf`        | CTRL                    | |
+| `xv`         | Xverse                  | |
 | `zcx-com`    | Unizen                  | |
 | `zengo`      | Zengo Wallet            | |
+| `zyp`        | Zypto                   | |
 
 [THORNames]: https://docs.thorchain.org/how-it-works/thorchain-name-service
 [1]: https://discord.com/channels/831398059484250142/831398279639859270/1270355067115147295
