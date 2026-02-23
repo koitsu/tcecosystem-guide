@@ -19,7 +19,7 @@ to this chart, please submit a PR via GitHub.
 | `-_`         | SwapKit                 | |
 | `-t`         | THORSwap (RUNE Edition) | <https://rune.thorswap.finance/> |
 | `ahi`        | CTRL                    | |
-| `asgardex`   | Asgardex                | DEPRECATED |
+| `asgardex`   | Asgardex                | DEPRECATED: replaced by `dx` |
 | `bgw`        | BitGet Wallet           | |
 | `bk`         | BitGet Wallet           | |
 | `bp`         | BitPay                  | |
