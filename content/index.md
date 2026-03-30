@@ -16,16 +16,15 @@ We hope that you find the information here beneficial.
 ## Technical details
 
 The site is written entirely in
-[Markdown](https://rust-lang.github.io/mdBook/format/markdown.html),
-and rendered using
-[mdBook](https://rust-lang.github.io/mdBook/).
+[Markdown](https://rust-lang.github.io/mdBook/format/markdown.html), and
+rendered into HTML/CSS using [mdBook](https://rust-lang.github.io/mdBook/).
 
-It is hosted using [GitHub Pages], with [Cloudflare] sitting in front of it to
-provide additional benefits like security, caching, and general metrics.
+[Cloudflare](https://www.cloudflare.com/) and
+[Cloudflare Pages](https://developers.cloudflare.com/pages/) are used for
+DNS, content serving, and caching for speed.
 
-The site leverages [GitHub Actions]; every time there is a commit pushed to the
-`master` branch of the official GitHub repository, the site auto-builds and
-auto-updates.
+Every time there is a commit pushed to the `master` branch of the official
+GitHub repository, the site is automatically built and updated.
 
 Anyone who wishes to contribute is welcome to do so via GitHub pull requests.
 Contributors with a strong dedication to the site can be added as official
@@ -33,7 +32,3 @@ collaborators on GitHub, thus allowing them to commit directly (i.e. no PRs).
 
 - GitHub repository: <https://github.com/koitsu/tcecosystem-guide>
 - Branch: `master`
-
-[Cloudflare]: https://www.cloudflare.com/
-[GitHub Actions]: https://docs.github.com/en/actions
-[GitHub Pages]: https://pages.github.com/
