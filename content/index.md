@@ -15,8 +15,10 @@ We hope that you find the information here beneficial.
 
 ## Technical details
 
-The site is written entirely in [Markdown], rendered using [mdBook], a
-documentation-oriented static-site generator.
+The site is written entirely in
+[Markdown](https://rust-lang.github.io/mdBook/format/markdown.html),
+and rendered using
+[mdBook](https://rust-lang.github.io/mdBook/).
 
 It is hosted using [GitHub Pages], with [Cloudflare] sitting in front of it to
 provide additional benefits like security, caching, and general metrics.
@@ -35,5 +37,3 @@ collaborators on GitHub, thus allowing them to commit directly (i.e. no PRs).
 [Cloudflare]: https://www.cloudflare.com/
 [GitHub Actions]: https://docs.github.com/en/actions
 [GitHub Pages]: https://pages.github.com/
-[Markdown]: https://rust-lang.github.io/mdBook/format/markdown.html
-[mdBook]: https://rust-lang.github.io/mdBook/
