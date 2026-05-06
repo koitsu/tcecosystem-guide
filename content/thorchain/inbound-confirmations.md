@@ -6,7 +6,7 @@ receiving an asset on the THORChain network.  This is sometimes called the
 
 Reviewing inbound confirmations is somewhat complicated and technical:
 
-1. Visit `https://thornode.ninerealms.com/thorchain/tx/status/YOUR_TRANSACTION_HASH` in your browser
+1. Visit `https://gateway.liquify.com/chain/thorchain_api/thorchain/tx/status/YOUR_TRANSACTION_HASH` in your browser
    - Replace `YOUR_TRANSACTION_HASH` with the Transaction Hash/ID from the earlier procedure
    - If you see the message `{"error":"rpc error: code = Unknown desc = internal"}` then the Transaction Hash/ID is wrong
    - You can reload this page periodically to see the status of the inbound leg

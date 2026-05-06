@@ -68,7 +68,7 @@ find it.  This can be a little confusing, especially in cases where THORChain RU
    - In THORSwap: click the Transaction History button in the upper right, then choose View Details
    - In [RuneScan]: search for your wallet address (either source or destination address) and look for your swap transaction.  If found, click on it and there should be an icon to copy the Transaction Hash/ID
    - If you still can't find your transaction, then THORChain might be waiting for [inbound confirmations](../thorchain/inbound-confirmations.md)
-1. Visit the [9R THORChain Tracker]
+1. Visit the [THORChain Tracker]
 1. Enter the Transaction Hash/ID into the **Swap Transaction ID** search box at the top of the page
    - If your transaction is found, details about it will be shown
    - Depending on which queue your transaction is in, it may or may not have an **ETA**.  Refer to [THORChain queues](../thorchain/queues.md) for further details
@@ -78,7 +78,7 @@ find it.  This can be a little confusing, especially in cases where THORChain RU
 [2]: https://thorswap.medium.com/seamless-cross-chain-trading-thorswap-welcomes-maya-protocol-ba89b918b879
 [3]: https://thorswap.medium.com/introducing-near-intents-%EF%B8%8F-thorswaps-new-revolutionary-cross-chain-provider-2a18bbf31dfe
 [4]: https://x.com/THORSwap/status/1998958126427746749
-[9R THORChain Tracker]: https://track.ninerealms.com/
+[THORChain Tracker]: https://track.thorchain.org/
 [Chainflip explorer]: https://scan.chainflip.io/
 [Harbor explorer]: https://explorer.harbor.xyz/
 [MayaScan]: https://www.mayascan.org/

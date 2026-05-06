@@ -1,28 +1,26 @@
 # Useful links
 
-- [9R Dashboards](https://dashboards.ninerealms.com/)
-- [9R THORChain Ops](https://ops.ninerealms.com/)
-- [9R THORChain Tracker](https://track.ninerealms.com/)
-  - [/pending endpoint](https://track.ninerealms.com/pending)
 - [RUNE Tools](https://rune.tools/)
 - [RUNEBond](https://runebond.com/)
 - [RuneScan](https://runescan.io/)
 - [THORChain](https://thorchain.org/)
+- [THORChain Dashboards](https://dashboards.thorchain.org/)
 - [THORChain Network Explorer](https://thorchain.net/dashboard)
+- [THORChain Tracker](https://track.thorchain.org/)
+  - [/pending endpoint](https://track.thorchain.org/pending)
+  - [/timestamp endpoint](https://track.thorchain.org/timestamp)
 - [THORCharts](https://thorcharts.org/)
 - [THORSwap](https://www.thorswap.finance/)
 - [THORSwap Community Forum](https://forum.thorswap.finance/)
 - [THORSwap Feedback](https://thorswap.canny.io/)
 - THORChain node information
-  - [Mimir voting results](https://ops.ninerealms.com/mimir)
   - [THORChain Network Nodes](https://thorchain.network/nodes/)
   - [THORNode](https://thornode.network/)
 - Service documentation
-  - [Midgard API v1 (Microgard)](https://mu.thorswap.net/doc)
-  - [Midgard API v2](https://midgard.ninerealms.com/v2/doc)
+  - [Midgard API v2](https://gateway.liquify.com/chain/thorchain_midgard/v2/doc)
   - [THORChain Developer Docs](https://dev.thorchain.org/)
   - [THORChain Ecosystem Docs](https://docs.thorchain.org/)
-  - [THORNode Docs](https://thornode.ninerealms.com/thorchain/doc)
+  - [THORNode Docs](https://gateway.liquify.com/chain/thorchain_api/thorchain/doc)
   - [THORSwap Docs](https://docs.thorswap.finance/)
   - [THORSwap SwapKit Docs](https://docs.thorswap.finance/swapkit-docs)
 - Blogs
@@ -35,6 +33,5 @@
   - [THORSwap Discord](https://discord.gg/ST2hfVB5)
   - [THORSwap Telegram](https://t.me/thorswap_ann)
 - Social media
-  - [Nine Realms X](https://x.com/ninerealms_cap)
   - [THORChain X](https://x.com/THORChain)
   - [THORSwap X](https://x.com/thorswap)

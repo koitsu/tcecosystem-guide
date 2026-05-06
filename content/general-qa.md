@@ -87,6 +87,6 @@ you can see 30, 60, 90, and 180-day histories.
 [7]: https://thorchain-community.medium.com/lpu-thorchain-updates-nov-2023-17af629c7763
 [8]: https://thorchain-community.medium.com/under-the-hood-liquidity-pool-apr-3e5e662e6675
 [9]: https://thorchain-community.medium.com/under-the-hood-liquidity-pool-apr-synth-leverage-201-c412b2cb8cb5
-[Midgard API]: https://midgard.ninerealms.com/v2/doc
+[Midgard API]: https://gateway.liquify.com/chain/thorchain_midgard/v2/doc
 [THORChain Network Explorer]: https://thorchain.net/dashboard
 [THORYield app]: https://app.thoryield.com/dashboard

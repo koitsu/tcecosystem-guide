@@ -4,9 +4,9 @@ In case a front-end you use is down or inaccessible, you can still check your
 LP balances using any of the below methods.  These query THORChain infrastructure
 directly, so rest assured of their accuracy.
 
-## 9R THORChain Tracker
+## THORChain Tracker
 
-Web: [https://track.ninerealms.com/](https://track.ninerealms.com/)
+Web: [https://track.thorchain.org/](https://track.thorchain.org/)
 
 - Select the **LP** tab
 - Symmetrical LPs: search for your THORChain address (ex. `thor1xxx`)
