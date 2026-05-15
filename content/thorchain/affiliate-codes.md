@@ -85,6 +85,7 @@ to this chart, please submit a PR via GitHub.
 | `tl`         | THORSwap Ledger         | Only used for tests |
 | `tps`        | Token Pocket            | |
 | `tr`         | Trust Wallet iOS        | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
+| `trj`        | Traject Exchange        | |
 | `ts`         | THORSwap                | Announced 2023/03/08 by mogarchy; search TC Dev Discord |
 | `v0`         | Vultisig Web            | |
 | `va`         | Vultisig Android        | |
