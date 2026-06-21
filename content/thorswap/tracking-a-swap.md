@@ -7,6 +7,7 @@ began integrating other providers (a.k.a. "paths" in the THORSwap UI):
 - April 2024: [Maya Protocol][2]
 - October 2025: [NEAR Intents][3]
 - December 2025: [Harbor][4]
+- April 2026: Flashnet (a.k.a. Spark, Orchestra)
 
 <div class="warning">
 As of August 2024, Chainflip and Maya-based swaps do not show up in the THORSwap Transaction History UI
@@ -24,6 +25,15 @@ Below are per-provider instructions for how you can find your swap.
 If you aren't sure which provider/path you used for your swap, you will need to try each of them until you
 find it.  This can be a little confusing, especially in cases where THORChain RUNE is involved.
 
+## Flashnet procedure
+
+1. In THORSwap, click the Transaction History button in the upper right, then choose View Details on your transaction
+1. Copy the **Transaction ID** at the bottom of the details window
+1. Visit the [Flashnet explorer]
+1. In the search box, paste the transaction ID obtained in the previous step
+1. If you swap was done through Flashnet, you should be shown details of your swap
+1. If your swap is not found, try the next provider below
+
 ## Harbor procedure
 
 1. In THORSwap, click the Transaction History button in the upper right, then choose View Details on your transaction
@@ -32,7 +42,7 @@ find it.  This can be a little confusing, especially in cases where THORChain RU
 1. In the search box, paste the transaction ID obtained in the previous step
    - If the transaction ID starts with `0x`, remove those characters (e.g. `0x1234` becomes `1234`)
 1. If you swap was done through Harbor, you should be shown details of your swap
-1. If your swap is not found, try the next protocol/path below
+1. If your swap is not found, try the next provider below
 
 ## NEAR Intents procedure
 
@@ -45,14 +55,14 @@ find it.  This can be a little confusing, especially in cases where THORChain RU
 1. Enter `https://explorer.near-intents.org/transactions/` in your browser, appending the destination address from the previous step to the URL
    - For example, if the destination address in the previous step was `abc123456`, you would visit `https://explorer.near-intents.org/transactions/abc123456`
 1. If your swap was done through NEAR Intents, you should be shown details of your swap
-1. If your swap is not found, try the next protocol/path below
+1. If your swap is not found, try the next provider below
 
 ## Maya Protocol procedure
 
 1. Visit [Xscanner] or [MayaScan]
 1. Enter your source or destination wallet address (source wallet preferred) in the search box
 1. If your swap was done through Maya, you should be shown transaction details.  Click on the transaction ID to see a progress meter (if streaming swaps were used), and transaction aggregation features
-1. If your swap is not found, try the next protocol/path below
+1. If your swap is not found, try the next provider below
 
 ## Chainflip procedure
 
@@ -60,7 +70,7 @@ find it.  This can be a little confusing, especially in cases where THORChain RU
 1. In the search box, enter your **destination wallet address** and wait to see if any swaps are shown
    - For example, if you swapped BTC into ETH, you would enter your Ethereum wallet address
 1. If your swap was done through Chainflip, you should be shown a list of swaps.  The most recent should be at the top.  Click the swap to see details, including a progress indicator
-1. If your swap is not found, try the next protocol/path below
+1. If your swap is not found, try the next provider below
 
 ## THORChain procedure
 
@@ -80,6 +90,7 @@ find it.  This can be a little confusing, especially in cases where THORChain RU
 [4]: https://x.com/THORSwap/status/1998958126427746749
 [THORChain Tracker]: https://track.thorchain.org/
 [Chainflip explorer]: https://scan.chainflip.io/
+[Flashnet explorer]: https://orchestra.flashnet.xyz/explorer
 [Harbor explorer]: https://explorer.harbor.xyz/
 [MayaScan]: https://www.mayascan.org/
 [RuneScan]: https://runescan.io/
