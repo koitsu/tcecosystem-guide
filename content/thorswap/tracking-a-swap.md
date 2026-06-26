@@ -20,6 +20,14 @@ Transaction History UI in the upper-right corner.  Instead, users will be shown 
 contain all zeros.  This is a known issue devs are working on fixing.
 </div>
 
+<div class="warning">
+As of June 2026, the
+<a href="https://orchestra.flashnet.xyz/explorer">official Flashnet explorer</a>
+does not show in-flight transactions; only completed transactions will appear in search results.
+This leads end-users to think their transaction never reached Flashnet.  The below procedure for
+Flashnet recommends an alternate explorer instead.
+</div>
+
 Below are per-provider instructions for how you can find your swap.
 
 If you aren't sure which provider/path you used for your swap, you will need to try each of them until you
@@ -29,8 +37,10 @@ find it.  This can be a little confusing, especially in cases where THORChain RU
 
 1. In THORSwap, click the Transaction History button in the upper right, then choose View Details on your transaction
 1. Copy the **Transaction ID** at the bottom of the details window
-1. Visit the [Flashnet explorer]
-1. In the search box, paste the transaction ID obtained in the previous step
+1. Visit the [SwapKit Transaction Tracker]
+1. In the **Transaction Hash** search box, paste the transaction ID obtained in the previous step
+1. In the **Chain** search box, typing the name of the source asset chain
+   - For example, if you swapped USDT on Ethereum into BTC, type "Eth" and then select "Ethereum Mainnet"
 1. If you swap was done through Flashnet, you should be shown details of your swap
 1. If your swap is not found, try the next provider below
 
@@ -90,8 +100,8 @@ find it.  This can be a little confusing, especially in cases where THORChain RU
 [4]: https://x.com/THORSwap/status/1998958126427746749
 [THORChain Tracker]: https://track.thorchain.org/
 [Chainflip explorer]: https://scan.chainflip.io/
-[Flashnet explorer]: https://orchestra.flashnet.xyz/explorer
 [Harbor explorer]: https://explorer.harbor.xyz/
+[SwapKit Transaction Tracker]: https://track.swapkit.dev/
 [MayaScan]: https://www.mayascan.org/
 [RuneScan]: https://runescan.io/
 [Xscanner]: https://www.xscanner.org/
