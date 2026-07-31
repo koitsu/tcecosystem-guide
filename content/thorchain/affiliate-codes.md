@@ -42,6 +42,7 @@ to this chart, please submit a PR via GitHub.
 | `dx`         | Asgardex                | |
 | `ej`         | Edge Wallet             | |
 | `eld`        | El Dorito               | |
+| `few`        | IronWallet              | [Reference][7] |
 | `fs`         | FortunaSwap             | |
 | `g1`         | Gem Wallet              | |
 | `hvl`        | SafePal                 | |
@@ -50,11 +51,12 @@ to this chart, please submit a PR via GitHub.
 | `kf`         | Babylon Swap            | Previously known as Kensho Finance |
 | `kit`        | ?                       | Possibly SwapKit? |
 | `kns`        | Keystone                | |
+| `l1`         | Ledger Wallet           | |
 | `lends`      | Lends                   | |
 | `leo`        | LeoDex                  | |
 | `lg`         | ?                       | |
 | `lifi`       | Li.Fi                   | |
-| `ll`         | Ledger Wallet           | |
+| `ll`         | Ledger Wallet           | DEPRECATED: replaced by `l1` |
 | `ma`         | Moca                    | |
 | `matias`     | THORWallet              | |
 | `mis`        | CoinEx Wallet           | |
@@ -76,6 +78,7 @@ to this chart, please submit a PR via GitHub.
 | `sy`         | Symbiosis               | |
 | `t1`         | Trust Wallet            | |
 | `t`          | THORSwap                | |
+| `tan`        | Tangem                  | [Reference][6] |
 | `td`         | Trust Wallet Android    | DEPRECATED: replaced by `t1` |
 | `te-ios`     | Trust Wallet iOS        | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
 | `te`         | Trust Wallet Android    | DEPRECATED: replaced by `td`; confirmed by Aperçu on 2023/12/29 |
@@ -90,6 +93,7 @@ to this chart, please submit a PR via GitHub.
 | `v0`         | Vultisig Web            | |
 | `va`         | Vultisig Android        | |
 | `vi`         | Vultisig iOS            | |
+| `wgm`        | WAGMI Global            | [Reference][7] |
 | `wr`         | THORWallet              | |
 | `xdf`        | CTRL                    | |
 | `xv`         | Xverse                  | |
@@ -103,3 +107,5 @@ to this chart, please submit a PR via GitHub.
 [3]: https://discord.com/channels/838986635756044328/1160243572637966386
 [4]: https://discord.com/channels/838986635756044328/1336891243061313587/1336913446372900914
 [5]: https://discord.com/channels/838986635756044328/838986636665815072/1434770133158723695
+[6]: https://discord.com/channels/838986635756044328/846612413477945384/1532436087664939100
+[7]: https://discord.com/channels/838986635756044328/863760596821868544/1532436451462222027
