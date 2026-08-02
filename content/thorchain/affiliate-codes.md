@@ -80,6 +80,7 @@ to this chart, please submit a PR via GitHub.
 | `t`          | THORSwap                | |
 | `tan`        | Tangem                  | [Reference][6] |
 | `td`         | Trust Wallet Android    | DEPRECATED: replaced by `t1` |
+| `tdex`       | THORDEX                 | Specifically refers to thordex.eth.limo, not other sites |
 | `te-ios`     | Trust Wallet iOS        | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
 | `te`         | Trust Wallet Android    | DEPRECATED: replaced by `td`; confirmed by Aperçu on 2023/12/29 |
 | `tgt`        | THORWallet DEX          | |
