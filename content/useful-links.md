@@ -28,9 +28,8 @@
   - [THORChain Community Medium](https://thorchain-community.medium.com/)
   - [THORSwap Medium](https://thorswap.medium.com/)
 - Chats
-  - [THORChain Community Discord](https://discord.gg/thorchaincommunity)
-  - [THORChain Developer Discord](https://discord.gg/tW64BraTnX) &mdash; **warning: dev chat only!**
-  - [THORSwap Discord](https://discord.gg/ST2hfVB5)
+  - [THORChain Developer Discord](https://discord.com/invite/thorchaindevs)
+  - [THORSwap Discord](https://discord.gg/thorswap)
   - [THORSwap Telegram](https://t.me/thorswap_ann)
 - Social media
   - [THORChain X](https://x.com/THORChain)
