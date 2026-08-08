@@ -1,2 +1,7 @@
+/* Increase main content area from 750px */
+:root {
+  --content-max-width: 900px;
+}
+
 /* Disable prev/next chapter navigation bars */
 nav.nav-wide-wrapper { display: none !important; }
