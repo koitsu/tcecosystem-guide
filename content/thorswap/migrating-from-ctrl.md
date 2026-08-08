@@ -87,9 +87,9 @@ For example, a single seed phrase wallet might contain the following addresses
 field (0 vs. 1 vs. 2):
 
 ```
-m/931'/0'/0'/0/0 = thor1abcdefghijklmnopqrstuvwxyz0123456789ab
-m/931'/0'/0'/0/1 = thor1jhswhogxcixgoijo33hkjxdfxi83hsds8zx8ig
-m/931'/0'/0'/0/2 = thor19hskjxl298xhg34nposfpjxihuieyh22sdfhyx
+m/44'/931'/0'/0/0 = thor1abcdefghijklmnopqrstuvwxyz0123456789ab
+m/44'/931'/0'/0/1 = thor1jhswhogxcixgoijo33hkjxdfxi83hsds8zx8ig
+m/44'/931'/0'/0/2 = thor19hskjxl298xhg34nposfpjxihuieyh22sdfhyx
 ```
 
 Unfortunately, Ctrl Wallet does not offer a way to display full derivation path
