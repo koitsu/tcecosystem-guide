@@ -14,6 +14,7 @@
   - [Queues](thorchain/queues.md)
   - [Troubleshooting](thorchain/troubleshooting.md)
 - [THORSwap](thorswap/index.md)
+  - [Migrating from Ctrl Wallet](thorswap/migrating-from-ctrl.md)
   - [Tracking a swap](thorswap/tracking-a-swap.md)
   - [Tracking a withdrawal](thorswap/tracking-a-withdrawal.md)
   - [Using Ledger](thorswap/ledger/index.md)
