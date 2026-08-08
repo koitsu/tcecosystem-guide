@@ -143,10 +143,85 @@ may be, in general this feature is poorly supported by most wallet softwares
 when used on DEXes.  It's generally safer to have multiple wallets (one per
 account), then keep a list of addresses associated with each wallet.
 
-## Wallets using coin type 118 instead of 931 for THORChain
+## Wallets using incorrect coin type 118 for THORChain
 
-TBD
+Old versions of some wallets &mdash; such as Ctrl Wallet and Keplr Wallet
+&mdash; incorrectly used coin type 118 (Cosmos) for THORChain derivation paths.
+THORChain has always used coin type 931.  How/why this happened is unknown, but
+it's suspected these wallet vendors assumed THORChain used coin type 118 since
+THORChain uses Cosmos/Tendermint.
 
-## Keplr Wallet and RPC failures
+As of this writing (August 2026), any wallet address using a coin type 118
+derivation path will usually fail when attempting to do transactions with
+THORChain assets.
 
-TBD
+Here is a breakdown of the behaviours per wallet and coin type:
+
+| Wallet        | Coin type  | Method         | Result                                     |
+| ------------- | ---------- | -------------- | ------------------------------------------ |
+| Ctrl Wallet   | 118        | In wallet      | Transactions fail, no longer functional    |
+| Ctrl Wallet   | 931        | In wallet      | No longer functional as of August 3rd 2026 |
+| Ctrl Wallet   | 118 or 931 | THORSwap       | Fails to connect or transactions fail      |
+| Ctrl Wallet   | 118 or 931 | Metro Exchange | Fails to connect or transactions fail      |
+| Keplr Wallet  | 118        | In wallet      | Send works, other transaction types fail   |
+| Keplr Wallet  | 931        | In wallet      | Works                                      |
+| Keplr Wallet  | 118        | THORSwap       | Fails with signature verification failed   |
+| Keplr Wallet  | 931        | THORSwap       | Works                                      |
+| Keplr Wallet  | 118        | Metro Exchange | Fails during approval phase                |
+| Keplr Wallet  | 931        | Metro Exchange | Works                                      |
+| Keystore File | 118        | THORSwap       | Cannot be used (only supports 931)         |
+| Keystore File | 931        | THORSwap       | Works                                      |
+| Keystore File | 118        | Metro Exchange | Cannot be used (only supports 931)         |
+| Keystore File | 931        | Metro Exchange | Works                                      |
+
+Unfortunately there is no "simple" way to determine what coin type your
+THORChain addresses were generated from.  One method that is known to work,
+however, is to import your seed phrase into Keplr Wallet.  If near the end of
+the import phase you are shown multiple derivation paths &mdash; one for coin
+type 931, and one for coin type 118 &mdash; along with your associated wallet
+address, then odds are you do have a wallet using coin type 118.
+
+If you have a wallet using coin type 118, it is **strongly recommended** that
+you migrate to a new/fresh wallet that uses coin type 931.  You can do this in
+any number of ways, but the easiest is to generate a new seed phrase and move
+all your funds from your 118-based address to your new 931-based address.
+
+Users who wish to use Keplr Wallet may find this process confusing given
+extremely poor UI design on Keplr's part.  Here are the processes for Keplr:
+
+For making a new wallet:
+
+- Launch Keplr Wallet extension
+- Add a new wallet
+- Choose "Create a new wallet"
+- Go through the process -- coin type 931 will be used by default
+
+For making a new wallet backed by Ledger:
+
+- Run the THORChain application on your Ledger device
+- Launch Keplr Wallet extension
+- Choose "Connect Hardware Wallet"
+- Choose "Connect Ledger"
+- Under "Connect to", choose the "THORChain app" menu item
+  - This item is barely visible due to poor UI design; it's below "Secret app"
+  - Selecting "THORChain app" ensures coin type 931
+  - If you want to use multiple accounts or indexes, see below paragraph
+- Choose "Next" and go through the USB approval dialog (if prompted)
+- For chain selection, make sure THORChain is selected (Cosmos cannot be deselected)
+- Go through the process -- you're done
+
+If you want to use multiple accounts or indexes on your Ledger, you can do so by
+using the "Set Custom Derivation Path (Advanced)" feature during the "Connect to"
+step.  In this situation, the furthest right field represents the `index` number.
+Repeat the process (adding a new wallet etc.) for each index you want to add.
+
+You can verify coin type 931 by expanding your list of accounts; the Ledger
+account should show a derivation path of `m/-'/931'/0'/0/0` (or another `index`
+if applicable).
+
+<div class="warning">
+The "Set Custom Derivation Path (Advanced)" feature does not allow you to change
+the coin type &mdash; only the index, receiving/change, and account fields can
+be changed.  The "THORChain app" setting is what uses coin type 931, while the
+"Cosmos app" setting (incorrectly) uses coin type 118.
+</div>
