@@ -96,7 +96,7 @@ Unfortunately, Ctrl Wallet does not offer a way to display full derivation path
 information on an account or wallet address.  This makes it difficult to
 determine which index is associated with what wallet address.
 
-So how do we do it?  There are 3 options:
+So how do we do it?  There are 2 options:
 
 1. Trial and error method using V2 THORSwap and Keystore File
 
@@ -111,16 +111,7 @@ So how do we do it?  There are 3 options:
    Be aware that in V2 THORSwap, some chains (particularly EVM) offer different derivation
    path syntaxes.  Use the default, named `MetaMask (m/44'/xxx'/0'/0/{index})`.
 
-2. Use Metro Wallet to scan indexes
-
-   When importing a seed phrase into Metro Wallet (on V3 THORSwap or Metro
-   Exchange), the front-end will "scan" various derivation paths for assets.  If
-   assets are found, the derivation path will be shown and its associated address.
-
-   THORChain users should be aware Metro Wallet only scans coin type 931 (which is
-   correct), not coin type 118.
-
-3. Use Keplr Wallet to scan indexes
+2. Use Keplr Wallet to scan indexes
 
    The [Keplr Wallet browser extension](https://www.keplr.app/), when importing a
    seed phrase, can/will "scan" various derivation paths for assets.  If you hold
@@ -137,6 +128,11 @@ So how do we do it?  There are 3 options:
    represnent THORChain derivation paths (they should have used 931).  In this
    scenario, it's recommended you open a support ticket on THORSwap's website or
    on their official Discord, as the process is complicated.
+
+Additionally, as of this writing (August 2026), the Metro Wallet feature of V3
+THORSwap and Metro Exchange does not support alternative indexes (i.e. index 0
+is hard-coded).  Only V2 THORSwap with Keystore File (and connecting a single
+chain) supports multiple indexes.
 
 General advice: despite how tempting "a single wallet with multiple accounts"
 may be, in general this feature is poorly supported by most wallet softwares
