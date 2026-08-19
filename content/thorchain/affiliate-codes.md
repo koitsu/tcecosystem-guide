@@ -86,6 +86,7 @@ to this chart, please submit a PR via GitHub.
 | `tgt`        | THORWallet DEX          | |
 | `thorwallet` | THORWallet DEX          | |
 | `ti`         | Trust Wallet iOS        | DEPRECATED: replaced by `t1` |
+| `tkf`        | Tokensfund              | |
 | `tl`         | THORSwap Ledger         | Only used for tests |
 | `tps`        | Token Pocket            | |
 | `tr`         | Trust Wallet iOS        | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
