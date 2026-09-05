@@ -25,6 +25,7 @@ to this chart, please submit a PR via GitHub.
 | `bk`         | BitGet Wallet           | |
 | `bp`         | BitPay                  | |
 | `bqx`        | Ethos Wallet            | [Reference][2] |
+| `btcx`       | Portage                 | [Reference][8] |
 | `burrito`    | Burrito Wallet          | |
 | `bwt`        | ?                       | |
 | `byb`        | BiorBank                | |
@@ -111,3 +112,4 @@ to this chart, please submit a PR via GitHub.
 [5]: https://discord.com/channels/838986635756044328/838986636665815072/1434770133158723695
 [6]: https://discord.com/channels/838986635756044328/846612413477945384/1532436087664939100
 [7]: https://discord.com/channels/838986635756044328/863760596821868544/1532436451462222027
+[8]: https://discord.com/channels/838986635756044328/1537554297980583996/1545697590169960509
