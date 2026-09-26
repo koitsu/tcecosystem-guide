@@ -96,6 +96,7 @@ to this chart, please submit a PR via GitHub.
 | `v0`         | Vultisig Web            | |
 | `va`         | Vultisig Android        | |
 | `vi`         | Vultisig iOS            | |
+| `w1`         | THORWallet              | |
 | `wgm`        | WAGMI Global            | [Reference][7] |
 | `wr`         | THORWallet              | |
 | `xdf`        | CTRL                    | |
