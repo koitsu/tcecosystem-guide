@@ -46,6 +46,8 @@ to this chart, please submit a PR via GitHub.
 | `few`        | IronWallet              | [Reference][7] |
 | `fs`         | FortunaSwap             | |
 | `g1`         | Gem Wallet              | |
+| `hrz_ios`    | Unstoppable Wallet      | |
+| `hrz`        | Unstoppable Wallet      | |
 | `hvl`        | SafePal                 | |
 | `is`         | InstaSwap               | |
 | `iwt`        | ?                       | |
@@ -93,6 +95,7 @@ to this chart, please submit a PR via GitHub.
 | `tr`         | Trust Wallet iOS        | DEPRECATED: replaced by `ti`; confirmed by Aperçu |
 | `trj`        | Traject Exchange        | |
 | `ts`         | THORSwap                | Announced 2023/03/08 by mogarchy; search TC Dev Discord |
+| `uws`        | Unstoppable Wallet      | |
 | `v0`         | Vultisig Web            | |
 | `va`         | Vultisig Android        | |
 | `vi`         | Vultisig iOS            | |
