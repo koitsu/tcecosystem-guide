@@ -38,7 +38,7 @@ This is purely an example and should not be used verbatim, otherwise you are lik
 
 We visit <https://gateway.liquify.com/chain/thorchain_api/thorchain/inbound_addresses> and find the `"chain": "BCH"` section:
 
-```
+```json
 {
     "chain": "BCH",
     "pub_key": "thorpub1addwnpepq2dxvtsjwz8de5k96ct7aap2d7ccgjeekr02n0eudcankqa02d89udx7767",
@@ -79,7 +79,7 @@ Additionally, remember that to **unstake** TCY, your THORChain wallet need to ho
 
 ## Post-send verification
 
-1. Visit either <https://runescan.io/> or <https://thorchain.net/> THORCHain block explorers
+1. Visit either <https://runescan.io/> or <https://thorchain.net/> THORChain block explorers
 1. Search for your own THORChain address
 1. You should see a TCY Claim transaction that was successful (no errors).  If there are errors, they should be shown
 
