@@ -28,12 +28,10 @@ your Savers/Earn position or open Loan.  An example will be provided below.
    - Note: this address can change based on THORChain churn, load balancer infrastructure, and there being multiple THORChain vaults
 1. Within the section, find the `dust_threshold` field and convert it from 1e8 format into into a human-readable number using math: `dust_threshold / 10^8`
 
-#### Example
-
-This is a preparation example for BCH chain.
+Below is a preparation example for BCH chain.
 
 <div class="warning">
-This is purely an example and should not be used verbatim, otherwise you are likely to lose funds.  Always follow the procedure!
+This is purely an example and should not be used verbatim, otherwise you are likely to lose funds.
 </div>
 
 We visit <https://gateway.liquify.com/chain/thorchain_api/thorchain/inbound_addresses> and find the `"chain": "BCH"` section:
