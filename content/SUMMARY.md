@@ -14,6 +14,7 @@
   - [Queues](thorchain/queues.md)
   - [Troubleshooting](thorchain/troubleshooting.md)
 - [THORSwap](thorswap/index.md)
+  - [Manually claiming TCY](thorswap/manual-tcy-claim.md)
   - [Migrating from Ctrl Wallet](thorswap/migrating-from-ctrl.md)
   - [Tracking a swap](thorswap/tracking-a-swap.md)
   - [Tracking a withdrawal](thorswap/tracking-a-withdrawal.md)
